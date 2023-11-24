@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+<head lang="ru">
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+    <meta name="author" content="Интернет-агентство «Артус», «1C.Bitrix»" />
+    <link href="_i/favicon.ico" rel="icon" type="image/x-icon" />
+    <link type="image/x-icon" href="_i/favicon.ico" rel="icon" />
+    <link rel="apple-touch-icon" href="_i/touch-icon-iphone.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="_i/touch-icon-ipad.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="_i/touch-icon-iphone4.png"/>
+    <link rel="apple-touch-icon" sizes="120x120" href="_i/touch-icon-iphone-retina.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="_i/touch-icon-ipad-retina.png">
+
+    <title>Верстка</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+
+    <link href="_css/selectric.css" rel="stylesheet">     <link href="_css/selectize.default.css" rel="stylesheet">
+    <link href="_css/jquery.mCustomScrollbar.min.css" rel="stylesheet">
+    <link href="_css/slick.css" rel="stylesheet" />
+    <link href="_css/jquery-ui.min.css" rel="stylesheet">
+    <link href="_css/jquery.fancybox.min.css" rel="stylesheet">
+    <link href="_css/mr.css" rel="stylesheet">
+    <link href="_css/adaptive.css" rel="stylesheet">
+
+    <script src="_js/jquery-3.1.1.min.js"></script>
+    <script src="_js/jquery.selectric.min.js"></script>     <script src="_js/selectize.js"></script>
+    <script src="_js/jquery.mousewheel-3.0.6.min.js"></script>
+    <script src="_js/jquery.mCustomScrollbar.min.js"></script>
+    <script src="_js/jquery.scrollbar.js"></script>
+    <script src="_js/jquery.scrollbar.min.js"></script>
+    <script src="_js/slick.min.js"></script>
+    <script src="_js/jquery.validate.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDGC9lrwbtUTUA7GCWvDfuRuF0g17jEdjs&language=ru"></script>
+    <script src="_js/markerwithlabel.js"></script>
+    <script src="_js/jquery-ui.min.js"></script>
+    <script src="_js/jquery.maskedinput.min.js"></script>
+    <script src="_js/jquery.fancybox.min.js"></script><script src="_js/circle-progress.min.js"></script><script src="_js/svg4everybody.min.js"></script>
+    <script src="_js/mr.js"></script>
+</head>
+
+<body>
+<!--BEGIN wrapper -->
+<div class="wrapper">
+    <div class="holder">
+
+        <!-- BEGIN header-->
+        <header class="header">
+            <div class="header-top">
+                <a class="logo" href="#" title="На главную страницу"><img src="_i/logo.png" alt=""></a>
+                <ul class="social ta-center mobile">
+                    <li><a href="#"><i class="icon icon-vk"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="_i/icons.svg#icon-52"></use></svg></i></a></li>
+                    <li><a href="#"><i class="icon icon-tw"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="_i/icons.svg#icon-53"></use></svg></i></a></li>
+                    <li><a href="#"><i class="icon icon-ok"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="_i/icons.svg#icon-54"></use></svg></i></a></li>
+                    <li><a href="#"><i class="icon icon-fb"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="_i/icons.svg#icon-51"></use></svg></i></a></li>
+                </ul>
+                <a class="shops" href="#"><i class="icon icon-marker-wh"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="_i/icons.svg#icon-11"></use></svg></i>Где купить?</a>
+                <span class="burger"><i><!-- --></i></span>
+            </div>
+
+            <div class="toggle-header">
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="#"><i class="icon icon-menu-1"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="_i/icons.svg#icon-14"></use></svg></i>Каталог Продукции</a>
+                            <ul>
+                                <li><a href="#">вареные колбасы и ветчины</a></li>
+                                <li><a href="#">сосиски и сардельки</a></li>
+                                <li><a href="#">деликатесы и копчености</a></li>
+                                <li><a href="#">варено-копченые <br />и полукопченые колбасы</a></li>
+                                <li><a href="#">сырокопченые колбасы</a></li>
+                                <li><a href="#">ливерные колбасы и паштеты</a></li>
+                                <li><a href="#">полуфабрикаты рубленные</a></li>
+                                <li><a href="#">полуфабрикаты в тесте</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#"><i class="icon icon-menu-2"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="_i/icons.svg#icon-11"></use></svg></i>Где купить</a></li>
+                        <li><a href="#"><i class="icon icon-menu-3"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="_i/icons.svg#icon-12"></use></svg></i>Полезно знать</a></li>
+                        <li><a href="#"><i class="icon icon-menu-4"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="_i/icons.svg#icon-09"></use></svg></i>Производство</a></li>
+                        <li><a href="#"><i class="icon icon-menu-5"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="_i/icons.svg#icon-10"></use></svg></i>Готовим вместе</a></li>
+                        <li><a href="#"><i class="icon icon-menu-6"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="_i/icons.svg#icon-13"></use></svg></i>Акции и конкурсы</a></li>
+                        <li><a href="#"><i class="icon icon-menu-7"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="_i/icons.svg#icon-15"></use></svg></i>Клуб &laquo;Все свои&raquo;</a></li>
+                    </ul>
+                </nav>
+
+                <div class="phone-num mob">
+                    <i class="icon icon-phone"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="_i/icons.svg#icon-26"></use></svg></i>Телефон горячей линии <br />
+                    <a href="tel:+7(495)411-33-41"><span>+7 (495)</span> 411-33-41</a>
+                </div>
+
+                <a class="write-us mob popup-show form-popup" data-fancybox data-src="#form-popup" href="javascript:;"><i class="icon icon-letter"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="_i/icons.svg#icon-35"></use></svg></i>Написать нам</a>
+
+                <ul class="social ta-center mob">
+                    <li><a href="#"><i class="icon icon-vk"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="_i/icons.svg#icon-52"></use></svg></i></a></li>
+                    <li><a href="#"><i class="icon icon-tw"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="_i/icons.svg#icon-53"></use></svg></i></a></li>
+                    <li><a href="#"><i class="icon icon-ok"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="_i/icons.svg#icon-54"></use></svg></i></a></li>
+                    <li><a href="#"><i class="icon icon-fb"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="_i/icons.svg#icon-51"></use></svg></i></a></li>
+                </ul>
+
+                <ul class="useful-links">
+                    <li><a href="#">Контактная информация</a></li>
+                    <li><a href="#">Социальные проекты <br />и благотворительность</a></li>
+                </ul>
+
+                <form class="form-search">
+                    <input type="text" placeholder="Введите поисковой запрос">
+                    <button class="btn-search"><i class="icon icon-search"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="_i/icons.svg#icon-43"></use></svg></i></button>
+                </form>
+            </div>
+
+        </header>
+        <!-- END header-->
+
+        <!--BEGIN content -->
+        <div class="content">
+            <div class="container">
+                <div class="full-width">
+                    <!-- main slider -->
+                    <div class="main-slider-wrap">
+                        <div class="main-slider">
+                            <div class="item" style="background-image: url('_i/temp/main-slider-01.jpg');">
+                                <p>Всегда свежее! <br />&nbsp;&nbsp;Всегда рядом!</p>
+                                <a class="show" href="#">Посмотреть каталог</a>
+                            </div>
+                            <div class="item" style="background-image: url('_i/temp/main-slider-01.jpg');">
+                                <p>Всегда свежее! <br />&nbsp;&nbsp;Всегда рядом!</p>
+                                <a class="show" href="#">Посмотреть каталог</a>
+                            </div>
+                            <div class="item" style="background-image: url('_i/temp/main-slider-01.jpg');">
+                                <p>Всегда свежее! <br />&nbsp;&nbsp;Всегда рядом!</p>
+                                <a class="show" href="#">Посмотреть каталог</a>
+                            </div>
+                        </div>
+                        <div class="slider-arrow">
+                            <div class="slider-next"><i class="icon-arr"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="_i/icons.svg#icon-56"></use></svg></i></div>
+                            <div class="slider-prev"><i class="icon-arr"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="_i/icons.svg#icon-56"></use></svg></i></div>
+                        </div>
+                    </div>
+                    <!-- banners -->
+                    <div class="banners-wrap">
+                        <div class="banner">
+                            <a href="#" style="background-image: url('_i/temp/banner-01_785x405.jpg');">
+                                <span class="sale">Акция<br /><b>%</b><i class="blue"><!-- --></i></span>
+                                <span class="details">
+                                    <span class="duration">с 02 по 08 января</span>
+                                    <span class="name">сосиски <br />&laquo;молочные&raquo;</span>
+                                    <span class="price">
+                                        <span class="old-price-wrap">
+                                            <span class="old-price">355<sup>00</sup><span class="unit">р/кг</span></span>
+                                        </span>
+                                        <span class="new-price">279<sup>00</sup><span class="unit">р/кг</span></span>
+                                    </span>
+                                </span>
+                                <span class="descr"><span>Покупай выгодно! Акция -21%</span></span>
+                            </a>
+                        </div>
+                        <div class="banner v1">
+                            <a href="#" style="background-image: url('_i/temp/banner-02_785x405.jpg');">
+                                <span class="details">
+                                    <span class="duration">с 10 по 29 января</span>
+                                    <span class="name">Конкурс детского рисунка</span>
+                                </span>
+                                <span class="descr"><span>Конкурс детского рисунка</span></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- recipes -->
+                <div class="h1 icon-top"><i class="icon"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="_i/title_icon1.png"></use></svg></i><span>Готовим вместе</span></div>
+
+                <div class="full-width">
+                    <div class="recipes-wrap">
+                        <div class="recipe full-width-recipe" style="background-image: url('_i/temp/recipe-big-01_1570x470.jpg');">
+                            <div class="recipe-body">
+                                <div class="recipe-holder">
+                                    <p class="title">СЭНДВИЧ С ЯЙЦОМ<br /> И ВЕТЧИНОЙ &laquo;ФИЛЕЙНОЙ&raquo;</p>
+                                    <p class="descr">Мясо курицы отделить от кости, порезать на кусочки, слегка обжарить и остудить. Салатные листья промыть...</p>
+                                    <a class="read-more" href="#">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- recipes slider -->
+                        <div class="recipes-slider-wrap">
+                            <div class="recipes-slider">
+                                <div class="recipe">
+                                    <a href="#" style="background-image: url('_i/temp/recipe-01_390x250.jpg');">
+                                        <img src="_i/temp/recipe-01_390x250.jpg" alt="">
+                                        <span class="recipe-body">
+                                            <span class="title">Салат &laquo;Цезарь&raquo; с курицей</span>
+                                            <span class="descr">Мясо курицы отделить от кости, порезать на кусочки, слегка обжарить и остудить. Салатные листья промыть...</span>
+                                            <span class="read-more">Подробнее</span>
+                                        </span>
+                                        
+                                        <span class="name">
+                                            <span class="name-inner">
+                                                <span class="name-txt">Домашняя солянка с ветчиной &laquo;Краковская&raquo;</span>
+                                            </span>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="recipe">
+                                    <a href="#" style="background-image: url('_i/temp/recipe-02_390x250.jpg');">
+                                        <img src="_i/temp/recipe-02_390x250.jpg" alt="">
+                                        <span class="recipe-body">
+                                            <span class="title">Салат &laquo;Цезарь&raquo; с курицей</span>
+                                            <span class="descr">Мясо курицы отделить от кости, порезать на кусочки, слегка обжарить и остудить. Салатные листья промыть...</span>
+                                            <span class="read-more">Подробнее</span>
+                                        </span>
+                                        
+                                        <span class="name">
+                                            <span class="name-inner">
+                                                <span class="name-txt">Салат &laquo;Цезарь&raquo; с курицей</span>
+                                            </span>
+                                        </span>
+                                    </a>
+                                </div>
+                                
+                                <div class="recipe">
+                                    <a href="#" style="background-image: url('_i/temp/recipe-03_390x250.jpg');">
+                                        <img src="_i/temp/recipe-03_390x250.jpg" alt="">
+                                        <span class="recipe-body">
+                                            <span class="title">Салат &laquo;Цезарь&raquo; с курицей</span>
+                                            <span class="descr">Мясо курицы отделить от кости, порезать на кусочки, слегка обжарить и остудить. Салатные листья промыть...</span>
+                                            <span class="read-more">Подробнее</span>
+                                        </span>
+                                         <span class="name">
+                                            <span class="name-inner">
+                                                <span class="name-txt">СЭНДВИЧ С ЯЙЦОМ И ВЕТЧИНОЙ &laquo;ФИЛЕЙНОЙ&raquo;</span>
+                                            </span>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="recipe">
+                                    <a href="#" style="background-image: url('_i/temp/recipe-02_390x250.jpg');">
+                                        <img src="_i/temp/recipe-02_390x250.jpg" alt="">
+                                        <span class="recipe-body">
+                                            <span class="title">Салат &laquo;Цезарь&raquo; с курицей</span>
+                                            <span class="descr">Мясо курицы отделить от кости, порезать на кусочки, слегка обжарить и остудить. Салатные листья промыть...</span>
+                                            <span class="read-more">Подробнее</span>
+                                        </span>
+                                        <span class="name">
+                                            <span class="name-inner">
+                                                <span class="name-txt">Домашняя солянка с ветчиной «Краковская»</span>
+                                            </span>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="slider-arrow">
+                                <div class="slider-next"><i class="icon-arr"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="_i/icons.svg#icon-56"></use></svg></i></div>
+                                <div class="slider-prev"><i class="icon-arr"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="_i/icons.svg#icon-56"></use></svg></i></div>
+                            </div>
+                        </div>
+                        <div class="text-holder">
+                            <p class="ta-center"><a class="btn" href ="#">Все рецепты</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- advantages -->
+                <div class="h1 icon-top"><i class="icon icon-secret"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="_i/icons.svg#icon-07"></use></svg></i><span>Секреты Мясницкого ряда</span></div>
+
+                <div class="advantages-wrap">
+                    <div class="adv-item">
+                        <a href="#">
+                            <span class="img">
+                                <img src="_i/icon-adv-01.png" width="150" height="100">
+                                <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="_i/icons.svg#icon-27"></use></svg>
+                            </span>
+                            <span class="title">Как и где производится <br />наша продукция?</span>
+                        </a>
+                    </div>
+                    <div class="adv-item">
+                        <a href="#">
+                            <span class="img">
+                                <img src="_i/icon-adv-02.png" width="100" height="100">
+                                <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="_i/icons.svg#icon-28"></use></svg>
+                            </span>
+                            <span class="title">Виртуальная <br />экскурсия на завод</span>
+                        </a>
+                    </div>
+                    <div class="adv-item">
+                        <a href="#">
+                            <span class="img">
+                                <img src="_i/icon-adv-03.png" width="100" height="100">
+                                <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="_i/icons.svg#icon-30"></use></svg>
+                            </span>
+                            <span class="title">Полезно <br />знать</span>
+                        </a>
+                    </div>
+                    <div class="adv-item">
+                        <a href="#">
+                            <span class="img">
+                                <img src="_i/icon-adv-04.png" width="100" height="100">
+                                <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="_i/icons.svg#icon-29"></use></svg>
+                            </span>
+                            <span class="title">Наборы продуктов <br />по случаю</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--END content -->
+
+    </div>
+</div>
+<!-- END wrapper -->
+
+<!-- BEGIN footer -->
+<footer class="footer">
+    <div class="holder">
+    <div class="content contacts">
+            <div class="phone-num mob">
+                <i class="icon icon-phone"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="_i/icons.svg#icon-26"></use></svg></i>Телефон горячей линии <br />
+                <a href="tel:+7(495)411-33-41"><span>+7 (495)</span> 411-33-41</a>
+            </div>
+            <div class="all_right">
+                
+                <a class="write-us mob popup-show form-popup" data-fancybox data-src="#form-popup" href="javascript:;"><i class="icon icon-letter"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="_i/icons.svg#icon-35"></use></svg></i>Написать нам</a>
+
+                <ul class="social ta-center mob">
+                    <li><a href="#"><i class="icon icon-vk"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="_i/icons.svg#icon-52"></use></svg></i></a></li>
+                    <li><a href="#"><i class="icon icon-tw"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="_i/icons.svg#icon-53"></use></svg></i></a></li>
+                    <li><a href="#"><i class="icon icon-ok"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="_i/icons.svg#icon-54"></use></svg></i></a></li>
+                    <li><a href="#"><i class="icon icon-fb"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="_i/icons.svg#icon-51"></use></svg></i></a></li>
+                </ul>
+            </div>
+        </div>
+       <div class="content">
+            <div class="column">
+                <div>Производство продукции: <a href="#">Первый Одинцовский мясокомбинат</a></div>
+                <div>Сеть фирменных магазинов: <a href="#">Франчайзинговая сеть "Мясницкий ряд"</a></div>
+                <div>&copy; ООО "МПЗ Мясницкий ряд"</div>
+            </div>
+            <noindex >
+                <a class="artus" href="#" rel="nofollow">
+                    <span class="logo"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="_i/icons.svg#icon-55"></use></svg></span>
+                    <span>Создание сайтов — <br/> интернет-агентство «Артус»
+                    </span>
+                </a>
+            </noindex>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</footer>
+<!-- FOOTER end -->
+
+<!-- popup's -->
+
+<div class="popup form-popup" style="display: none;" id="form-popup">
+    <div class="popup-close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="_i/icons.svg#icon-41"></use></svg></div>
+    <h1><span>Обратная связь</span></h1>
+    <p class='form-description'>Если у вас возникли вопросы, связанные с работой сайта, и вы не нашли ответы на них в разделах Помощи, вы можете задать их через форму ниже.</p>
+    <div class="form-wrap">
+        <form action="#" id="form-contact">
+            <div class="row">
+                <label for="fio" class="req">
+                    <input type="text" name="fio" id="fio" required value="Иванов Иван" onKeyUp="this.setAttribute('value', this.value);">
+                    <span class="placeholder">ФИО</span>
+                </label>
+                <p class="err-msg ta-right">&nbsp;</p>
+            </div>
+            <div class="row">
+                <label for="tel" class="req">
+                    <input name="tel" id="tel" type="tel" class="js_phone_mask" required value="" onKeyUp="this.setAttribute('value', this.value);">
+                    <span class="placeholder">Телефон</span>
+                </label>
+                <p class="err-msg ta-right">&nbsp;</p>
+            </div>
+            <div class="row">
+                <label for="email" class="req">
+                    <input name="email" id="email" type="email" required value="" onKeyUp="this.setAttribute('value', this.value);">
+                    <span class="placeholder">E-mail</span>
+                </label>
+                <p class="err-msg ta-right">&nbsp;</p>
+            </div>
+            <div class="row">
+                <label>
+                    <textarea></textarea>
+                    <span class="placeholder">Комментарий</span>
+                </label>
+            </div>
+            <div class="row">
+                <img src="_i/temp/captcha.png" alt="">
+            </div>
+            <div class="row" style="text-align: center">
+                <span>
+                    <input class="btn" type="submit" value="Отправить">
+                </span>
+            </div>
+            <div class="row" style="text-align: center">
+                <p class="required-fields-notice"><span class="star">*</span>Поля обязательные для заполнения.</p>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="popup form-popup" style="display: none;" id="form-popup-ok">
+    <div class="form-popup-holder">
+        <h1><span>Обратная связь</span></h1>
+        <p class="form-description">Спасибо за обращение!<br /> В ближайшее время наши менеджеры свяжутся с вами.</p>
+        <p class="ta-center"><a class="btn" data-fancybox-close href="javascript:;">Закрыть</a></p>
+    </div>
+</div>
+
+
+</body>
+</html>
