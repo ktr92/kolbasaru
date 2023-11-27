@@ -10,7 +10,10 @@
   <meta name="og:url" content="/" />
   <meta name="og:image" content="/_v/kolbasa/_i/logo.png" />
   <meta name="og:site_name" content="Мясоперерабатывающий завод «Мясницкий ряд»" />
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
   <meta name="author" content="Интернет-агентство «Артус», «1C.Bitrix»" />
   <meta name="yandex-verification" content="f6321cf4438fda4f" />
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -85,7 +88,6 @@
   <script type="text/javascript"
     data-skip-moving="true">(function (w, d) { var v = w.frameCacheVars = { 'CACHE_MODE': 'HTMLCACHE', 'banner': { 'url': 'http://www.1c-bitrix.ru/composite/', 'text': 'Быстро с 1С-Битрикс', 'bgcolor': '#E94524', 'style': 'white' }, 'storageBlocks': [], 'dynamicBlocks': { 'LkGdQn': '9bfa383792ad', 'XEVOpk': '6aa958daa6fe', '7DqYyc': 'd41d8cd98f00', 'g8taYv': 'd41d8cd98f00', 'jmonnO': '158ee0bb4cc2', 'iJBuqa': 'd41d8cd98f00', 'd42sdq': 'a6389e2f7f0c', 'CpmJaV': 'd41d8cd98f00' }, 'AUTO_UPDATE': true, 'AUTO_UPDATE_TTL': '120', 'version': '2' }; var inv = false; if (v.AUTO_UPDATE === false) { if (v.AUTO_UPDATE_TTL && v.AUTO_UPDATE_TTL > 0) { var lm = Date.parse(d.lastModified); if (!isNaN(lm)) { var td = new Date().getTime(); if ((lm + v.AUTO_UPDATE_TTL * 1000) >= td) { w.frameRequestStart = false; w.preventAutoUpdate = true; return; } inv = true; } } else { w.frameRequestStart = false; w.preventAutoUpdate = true; return; } } var r = w.XMLHttpRequest ? new XMLHttpRequest() : (w.ActiveXObject ? new w.ActiveXObject("Microsoft.XMLHTTP") : null); if (!r) { return; } w.frameRequestStart = true; var m = v.CACHE_MODE; var l = w.location; var x = new Date().getTime(); var q = "?bxrand=" + x + (l.search.length > 0 ? "&" + l.search.substring(1) : ""); var u = l.protocol + "//" + l.host + l.pathname + q; r.open("GET", u, true); r.setRequestHeader("BX-ACTION-TYPE", "get_dynamic"); r.setRequestHeader("X-Bitrix-Composite", "get_dynamic"); r.setRequestHeader("BX-CACHE-MODE", m); r.setRequestHeader("BX-CACHE-BLOCKS", v.dynamicBlocks ? JSON.stringify(v.dynamicBlocks) : ""); if (inv) { r.setRequestHeader("BX-INVALIDATE-CACHE", "Y"); } try { r.setRequestHeader("BX-REF", d.referrer || ""); } catch (e) { } if (m === "APPCACHE") { r.setRequestHeader("BX-APPCACHE-PARAMS", JSON.stringify(v.PARAMS)); r.setRequestHeader("BX-APPCACHE-URL", v.PAGE_URL ? v.PAGE_URL : ""); } r.onreadystatechange = function () { if (r.readyState != 4) { return; } var a = r.getResponseHeader("BX-RAND"); var b = w.BX && w.BX.frameCache ? w.BX.frameCache : false; if (a != x || !((r.status >= 200 && r.status < 300) || r.status === 304 || r.status === 1223 || r.status === 0)) { var f = { error: true, reason: a != x ? "bad_rand" : "bad_status", url: u, xhr: r, status: r.status }; if (w.BX && w.BX.ready && b) { BX.ready(function () { setTimeout(function () { BX.onCustomEvent("onFrameDataRequestFail", [f]); }, 0); }); } w.frameRequestFail = f; return; } if (b) { b.onFrameDataReceived(r.responseText); if (!w.frameUpdateInvoked) { b.update(false); } w.frameUpdateInvoked = true; } else { w.frameDataString = r.responseText; } }; r.send(); var p = w.performance; if (p && p.addEventListener && p.getEntries && p.setResourceTimingBufferSize) { var e = 'resourcetimingbufferfull'; var h = function () { if (w.BX && w.BX.frameCache && w.BX.frameCache.frameDataInserted) { p.removeEventListener(e, h); } else { p.setResourceTimingBufferSize(p.getEntries().length + 50); } }; p.addEventListener(e, h); } })(window, document);</script>
   <script type="text/javascript" data-skip-moving="true">(function (w, d, n) {
-
       var cl = "bx-core";
       var ht = d.documentElement;
       var htc = ht ? ht.className : undefined;
@@ -177,20 +179,11 @@
         return rv;
       }
 
-    })(window, document, navigator);</script>
-
-
+    })(window, document, navigator);
+  </script>
   <link
     href="https://kolbasa.ru/bitrix/cache/css/s1/main/template_e69073a9ea55c6c026d435d7d7006649/template_e69073a9ea55c6c026d435d7d7006649_v1.css?16567466541600"
     type="text/css" data-template-style="true" rel="stylesheet" />
-
-
-
-
-
-
-
-
   <link href="https://kolbasa.ru/_v/kolbasa/_i/favicon.ico" rel="icon" type="image/x-icon" />
   <link type="image/x-icon" href="css/_i/favicon.ico" rel="icon" />
   <link rel="apple-touch-icon" href="css/_i/touch-icon-iphone.png" />
@@ -198,10 +191,8 @@
   <link rel="apple-touch-icon" sizes="114x114" href="css/_i/touch-icon-iphone4.png" />
   <link rel="apple-touch-icon" sizes="120x120" href="css/_i/touch-icon-iphone-retina.png">
   <link rel="apple-touch-icon" sizes="152x152" href="css/_i/touch-icon-ipad-retina.png">
-
   <title>Мясоперерабатывающий завод «Мясницкий ряд»</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
-
   <link href="https://kolbasa.ru/_v/kolbasa/_css/selectric.css?14926040514299" rel="stylesheet">
   <link href="https://kolbasa.ru/_v/kolbasa/_css/selectize.default.css?149260405111692" rel="stylesheet">
   <link href="https://kolbasa.ru/_v/kolbasa/_css/jquery.mCustomScrollbar.min.css?149260405142839" rel="stylesheet">
@@ -213,7 +204,6 @@
   <link href="https://kolbasa.ru/_v/kolbasa/_js/arcticmodal/simple.css?1572540588421" rel="stylesheet">
   <link href="https://kolbasa.ru/_v/kolbasa/_css/custom.css?15729650101123" rel="stylesheet">
   <link href="css/restyle.css" rel="stylesheet">
-
   <!-- Yandex.Metrika counter -->
   <noscript>
     <div><img src="https://mc.yandex.ru/watch/45298401" style="position:absolute; left:-9999px;" alt="" /></div>
@@ -224,7 +214,8 @@
   <!-- End Google Tag Manager -->
 </head>
 
-<body><!-- Rating@Mail.ru counter -->
+<body>
+  <!-- Rating@Mail.ru counter -->
   <noscript>
     <div>
       <img src="https://kolbasa.ru//top-fwz1.mail.ru/counter?id=2929696;js=na"
@@ -232,13 +223,7 @@
     </div>
   </noscript>
   <!-- //Rating@Mail.ru counter -->
-
-
-
-
-
   <!--LiveInternet counter--><!--/LiveInternet-->
-
   <!--BEGIN wrapper -->
   <div class="wrapper ">
     <div class="holder">
@@ -248,169 +233,187 @@
           <span class="logo"><img src="https://kolbasa.ru/_v/kolbasa/_i/logo.png"
               alt="Мясоперерабатывающий завод «Мясницкий ряд»"
               title="Мясоперерабатывающий завод «Мясницкий ряд»"></span>
-
           <ul class="social ta-center mobile">
             <noindex>
-              <li><a href="https://vk.com/kolbasamr" rel="nofollow" target="_blank"><i class="icon icon-vk"><svg>
+              <li>
+                <a href="https://vk.com/kolbasamr" rel="nofollow" target="_blank">
+                  <i class="icon icon-vk">
+                    <svg>
                       <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="css/_i/icons.svg#icon-52"></use>
-                    </svg></i></a></li>
-              <li><a href="https://ok.ru/kolbasamr/" rel="nofollow" target="_blank"><i class="icon icon-ok"><svg>
+                    </svg>
+                  </i>
+                </a>
+              </li>
+              <li>
+                <a href="https://ok.ru/kolbasamr/" rel="nofollow" target="_blank">
+                  <i class="icon icon-ok">
+                    <svg>
                       <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="css/_i/icons.svg#icon-54"></use>
-                    </svg></i></a></li>
+                    </svg>
+                  </i>
+                </a>
+              </li>
             </noindex>
           </ul>
-          <a class="shops" href="/where/"><i class="icon icon-marker-wh"><svg>
+          <a class="shops" href="/where/">
+            <i class="icon icon-marker-wh">
+              <svg>
                 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="css/_i/icons.svg#icon-11"></use>
-              </svg></i>Где купить?</a>
-          <span class="burger"><i><!-- --></i></span>
+              </svg>
+            </i>
+            Где купить?
+          </a>
+          <span class="burger">
+            <i>
+              <!-- -->
+            </i>
+          </span>
         </div>
-
         <div class="toggle-header">
           <div id="bxdynamic_LkGdQn_start" style="display:none"></div>
           <nav class="main-nav">
             <ul>
-              <li> <a href="https://shop.kolbasa.ru/">
+              <li>
+                <a href="https://shop.kolbasa.ru/">
                   <i class="icon icon-menu-1">
                     <svg>
                       <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="css/_i/icons.svg#icon-"></use>
                     </svg>
-                  </i>интернет-магазин </a>
-
-
-
+                  </i>
+                  интернет-магазин
+                </a>
               </li>
-              <li> <a href="/where/">
+              <li>
+                <a href="/where/">
                   <i class="icon icon-menu-2">
                     <svg>
                       <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="css/_i/icons.svg#icon-11"></use>
                     </svg>
-                  </i>Адреса магазинов </a>
-
-
-
+                  </i>
+                  Адреса магазинов
+                </a>
               </li>
-              <li> <a href="/gotovim_vmeste/">
+              <li>
+                <a href="/gotovim_vmeste/">
                   <i class="icon icon-menu-3">
                     <svg>
                       <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="css/_i/icons.svg#icon-10"></use>
                     </svg>
-                  </i>Вкусные рецепты </a>
-
-
-
+                  </i>
+                  Вкусные рецепты
+                </a>
               </li>
-              <li> <a href="/proizvodstvo/">
+              <li>
+                <a href="/proizvodstvo/">
                   <i class="icon icon-menu-4">
                     <svg>
                       <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="css/_i/icons.svg#icon-09"></use>
                     </svg>
-                  </i>Производство </a>
-
+                  </i>
+                  Производство
+                </a>
                 <ul>
                   <li><a 1 href="/proizvodstvo/kak_proizvoditsja_produkcija/">Как и где производится наша продукция</a>
                   </li>
-
                   <li><a 1 href="/proizvodstvo/ehkskursiya/">Виртуальная экскурсия на завод</a></li>
-
                   <li><a 1 href="/proizvodstvo/sluzhba_kachestva/">Служба качества</a></li>
-
                   <li><a 1 href="/proizvodstvo/nagrady/">Награды</a></li>
-
                 </ul>
-
-
               </li>
-              <li> <a href="https://shop.kolbasa.ru/sale/">
+              <li>
+                <a href="https://shop.kolbasa.ru/sale/">
                   <i class="icon icon-menu-5">
                     <svg>
                       <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="css/_i/icons.svg#icon-13"></use>
                     </svg>
-                  </i>Акции и конкурсы </a>
-
-
-
+                  </i>
+                  Акции и конкурсы
+                </a>
               </li>
-              <li> <a href="/polezno_znat/">
+              <li>
+                <a href="/polezno_znat/">
                   <i class="icon icon-menu-6">
                     <svg>
                       <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="css/_i/icons.svg#icon-12"></use>
                     </svg>
-                  </i>Полезно знать </a>
-
+                  </i>
+                  Полезно знать
+                </a>
                 <ul>
                   <li><a 1 href="/polezno_znat/sistema_menedzhmenta_kachestva/">Что такое система менеджмента
-                      качества</a></li>
-
+                      качества</a>
+                  </li>
                   <li><a 1 href="/polezno_znat/vybor_postavshchikov/">Как мы выбираем себе поставщиков</a></li>
-
                   <li><a 1 href="/polezno_znat/sovety_dlya_potrebitelej/">Как читать этикетку: советы для
-                      потребителей</a></li>
-
+                      потребителей</a>
+                  </li>
                   <li><a 1 href="/polezno_znat/interesnye_fakty/">Интересные факты</a></li>
-
                 </ul>
-
-
               </li>
-              <li> <a href="/news/">
+              <li>
+                <a href="/news/">
                   <i class="icon icon-menu-7">
                     <svg>
                       <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="css/_i/icons.svg#icon-15"></use>
                     </svg>
-                  </i>Новости </a>
-
-
-
+                  </i>
+                  Новости
+                </a>
               </li>
-              <li> <a href="http://mpzmr.ru/karera/">
+              <li>
+                <a href="http://mpzmr.ru/karera/">
                   <i class="icon icon-menu-8">
                     <svg>
                       <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="css/_i/icons.svg#icon-"></use>
                     </svg>
-                  </i>Вакансии </a>
-
-
-
+                  </i>
+                  Вакансии
+                </a>
               </li>
-              <li> <a href="http://birzha-vkusov.kolbasa.ru/">
+              <li>
+                <a href="http://birzha-vkusov.kolbasa.ru/">
                   <i class="icon icon-menu-9">
                     <svg>
                       <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="css/_i/icons.svg#icon-"></use>
                     </svg>
-                  </i>Программа лояльности <br>"Биржа вкусов"</br> </a>
-
-
-
+                  </i>
+                  Программа лояльности <br>"Биржа вкусов"</br>
+                </a>
               </li>
             </ul>
           </nav>
           <div id="bxdynamic_LkGdQn_end" style="display:none"></div>
-
           <div class="phone-num mob phone_black">
-            <i class="icon icon-phone"><svg>
+            <i class="icon icon-phone">
+              <svg>
                 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/_v/kolbasa/_i/icons.svg#icon-26"></use>
-              </svg></i>Телефон отдела подбора<br>
+              </svg>
+            </i>
+            Телефон отдела подбора<br>
             <a href="tel:+75855588828">+7 (585) 558 88 28</a>
           </div>
-
           <a href="#modal_job" class="btn_image">
             <img src="img/btn_job.png" alt="">
             <span>ХОЧУ РАБОТАТЬ</span>
           </a><!-- /.btn_image -->
-
           <div class="phone-num mob">
-            <i class="icon icon-phone"><svg>
+            <i class="icon icon-phone">
+              <svg>
                 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="css/_i/icons.svg#icon-26"></use>
-              </svg></i>Телефон горячей линии <br />
+              </svg>
+            </i>
+            Телефон горячей линии <br />
             <a href="tel:+79854113341"><span>+7 (985)</span> 41-133-41</a>
           </div>
-
-          <a class="write-us mob popup-show form-popup" data-fancybox data-src="#form-popup" href="javascript:;"><i
-              class="icon icon-letter"><svg>
+          <a class="write-us mob popup-show form-popup" data-fancybox data-src="#form-popup" href="javascript:;">
+            <i class="icon icon-letter">
+              <svg>
                 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="css/_i/icons.svg#icon-35"></use>
-              </svg></i>Написать нам</a>
-
-          <ul class="social ta-center mob">
+              </svg>
+            </i>
+            Написать нам
+          </a>
+          <!--  <ul class="social ta-center mob">
             <noindex>
               <li><a href="https://vk.com/kolbasamr" rel="nofollow" target="_blank"><i class="icon icon-vk"><svg>
                       <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="css/_i/icons.svg#icon-52"></use>
@@ -419,7 +422,7 @@
                       <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="css/_i/icons.svg#icon-54"></use>
                     </svg></i></a></li>
             </noindex>
-          </ul>
+            </ul> -->
           <div id="bxdynamic_XEVOpk_start" style="display:none"></div>
           <ul class="useful-links">
             <li> <a href="/socialnye_proekty/">Социальные проекты<br>и благотворительность</a>
@@ -435,12 +438,15 @@
           <div id="bxdynamic_XEVOpk_end" style="display:none"></div>
           <form class="form-search" action="/search/">
             <input type="text" placeholder="Введите поисковой запрос" name="q">
-            <button class="btn-search"><i class="icon icon-search"><svg>
+            <button class="btn-search">
+              <i class="icon icon-search">
+                <svg>
                   <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="css/_i/icons.svg#icon-43"></use>
-                </svg></i></button>
+                </svg>
+              </i>
+            </button>
           </form>
         </div>
-
       </header>
       <!-- END header-->
       <!--BEGIN content -->
@@ -456,36 +462,40 @@
               <div class="main-slider">
                 <div class="item"
                   style="background-image: url('https://kolbasa.ru/upload/iblock/e6f/n2hv3lvdww1ambj9eimhog97phlu7y5w.jpg');">
-
                   <p></p>
                 </div>
                 <div class="item"
                   style="background-image: url('https://kolbasa.ru/upload/iblock/ece/tyeyyk14xrv7mvjguluxioehqz3bgix1.jpg');">
-
                   <p></p>
                   <a class="show" href="https://shop.kolbasa.ru/catalog/">Попробовать!</a>
                 </div>
                 <div class="item"
                   style="background-image: url('https://kolbasa.ru/upload/iblock/7d4/nnk32i0r8i0ks18wofwejve5zonv31pv.jpg');">
-
                   <p>Ужин за 20 минут! <br>&nbsp;&nbsp;</p>
                   <a class="show" href="https://shop.kolbasa.ru/catalog/gotovoe_k_prigotovleniyu/">посмотреть
                     каталог</a>
                 </div>
                 <div class="item"
                   style="background-image: url('https://kolbasa.ru/upload/iblock/1e1/yruyhmbic0j428u0xbfqyuopqxtyr4nx.jpg');">
-
                   <p>Всегда свежее! <br>&nbsp;&nbsp;Всегда рядом!</p>
                   <a class="show" href="https://shop.kolbasa.ru/catalog/">посмотреть каталог</a>
                 </div>
               </div>
               <div class="slider-arrow">
-                <div class="slider-next"><i class="icon-arr"><svg>
+                <div class="slider-next">
+                  <i class="icon-arr">
+                    <svg>
                       <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="css/_i/icons.svg#icon-56"></use>
-                    </svg></i></div>
-                <div class="slider-prev"><i class="icon-arr"><svg>
+                    </svg>
+                  </i>
+                </div>
+                <div class="slider-prev">
+                  <i class="icon-arr">
+                    <svg>
                       <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="css/_i/icons.svg#icon-56"></use>
-                    </svg></i></div>
+                    </svg>
+                  </i>
+                </div>
               </div>
             </div>
             <div id="bxdynamic_jmonnO_end" style="display:none"></div>
@@ -493,214 +503,504 @@
             <div id="bxdynamic_iJBuqa_end" style="display:none"></div>
           </div>
           <div id="bxdynamic_d42sdq_start" style="display:none"></div>
-          <div class="h1 icon-top"><i class="icon icon-cooking"><svg>
-                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="css/_i/icons.svg#icon-04"></use>
-              </svg></i><span>Готовим вместе</span></div>
-          <div class="full-width">
-            <div class="recipes-wrap">
-
-              <div class="recipe full-width-recipe"
-                style="background-image: url('https://kolbasa.ru/upload/resize_cache/iblock/360/1570_470_2/360e9d9347a3fee7c9ab064ca36ae9a1.jpg');">
-                <div class="recipe-body">
-                  <div class="recipe-holder">
-                    <p class="title">Паста с бужениной</p>
-                    <p class="descr">Макароны отварите и обжарьте на оливковом масле.
-
-                      Буженину нарежьте кусочками и тоже слегка обжарьте.
-
-                      Перец нарежьте дольками и обжарьте отдельно.
-
-                      На тарелку положите макароны и украсьте бужениной и перцем, выложенными веером.
-
-                      Посыпьте базиликом и тертым сыром.</p>
-                    <a class="read-more" href="/gotovim_vmeste/recepty/pasta-s-buzheninoy/">Подробнее</a>
-                  </div>
-                </div>
+          <div class="newsindex full-width">
+            <div class="newsindex__title">
+              <div class='h1'>Новости</в>
               </div>
-              <div class="recipes-slider-wrap">
-                <div class="recipes-slider">
-                  <div class="recipe">
-                    <a href="/gotovim_vmeste/recepty/gorokhovyy-sup/"
-                      style="background-image: url('https://kolbasa.ru/upload/resize_cache/iblock/61b/520_349_2/61be3bc2264a72c9cfc8dc7e3270c7e9.jpg');">
-                      <span class="video">Видео<i class="blue"><!-- --></i></span> <img
-                        src="https://kolbasa.ru/upload/resize_cache/iblock/61b/520_349_2/61be3bc2264a72c9cfc8dc7e3270c7e9.jpg"
-                        alt="Гороховый суп" title="Гороховый суп">
-                      <span class="recipe-body">
-                        <span class="title">Гороховый суп</span>
-                        <span class="descr">Горох тщательно промойте в холодной воде. Картошку нарежьте аккуратными
-                          кубиками...</span>
-                        <span class="read-more">Подробнее</span>
+              <!-- /.newsindex__title -->
+              <div class="newsindex__sliderwrapper">
+                <div class="newsindex__slider inline-blocks-wrap interesting loading-list"
+                  data-classmore="btn_load_more_default">
+                  <a class="inline-block" href="/news/zolotye-medali-kachestva/">
+                    <span class="img-wrap">
+                      <img src="https://kolbasa.ru/upload/iblock/06a/mzqya9n06kugac9h2dciewhqiq46azu0.jpg" width="520"
+                        height="349" alt="Золотые медали качества!" title="Золотые медали качества!">
+                    </span>
+                    <span class="inline-block-text-wrap">
+                      <span class="inline-block-title">Золотые медали качества!</span>
+                      <span class="inline-block-text"><span style="font-size: 12pt;">Продукция "Мясницкого ряда"
+                          получила награды!</span></span>
+                      <span class="inline-block-date">09.11.2023</span>
+                    </span>
+                  </a>
+                  <a class="inline-block" href="/news/roskachestvo-rekomenduet-myasnitskiy-ryad/">
+                    <span class="img-wrap">
+                      <img src="https://kolbasa.ru/upload/iblock/06a/mzqya9n06kugac9h2dciewhqiq46azu0.jpg" width="520"
+                        height="349" alt="Золотые медали качества!" title="Золотые медали качества!">
+                    </span>
+                    <span class="inline-block-text-wrap">
+                      <span class="inline-block-title">Роскачество рекомендует!</span>
+                      <span class="inline-block-text">Роскачество рекомендует куриный фарш "Мясницкий ряд"!</span>
+                      <span class="inline-block-date">30.10.2023</span>
+                    </span>
+                  </a>
+                  <a class="inline-block" href="/news/dostavka-za-2-chasa/">
+                    <span class="img-wrap">
+                      <img src="https://kolbasa.ru/upload/iblock/06a/mzqya9n06kugac9h2dciewhqiq46azu0.jpg" width="520"
+                        height="349" alt="Золотые медали качества!" title="Золотые медали качества!">
+                    </span>
+                    <span class="inline-block-text-wrap">
+                      <span class="inline-block-title">Доставка за 2 часа!</span>
+                      <span class="inline-block-text">Теперь мы доставим Ваш заказ на дом всего за 2 часа!</span>
+                      <span class="inline-block-date">08.09.2023</span>
+                    </span>
+                  </a>
+                  <a class="inline-block" href="/news/novinka/">
+                    <span class="img-wrap">
+                      <img src="https://kolbasa.ru/upload/iblock/06a/mzqya9n06kugac9h2dciewhqiq46azu0.jpg" width="520"
+                        height="349" alt="Золотые медали качества!" title="Золотые медали качества!">
+                    </span>
+                    <span class="inline-block-text-wrap">
+                      <span class="inline-block-title">Новинка</span>
+                      <span class="inline-block-text">Сосиски из индейки</span>
+                      <span class="inline-block-date">01.08.2023</span>
+                    </span>
+                  </a>
+                  <a class="inline-block" href="/news/myasnitskiy-ryad-i-music-box/">
+                    <span class="img-wrap">
+                      <img src="https://kolbasa.ru/upload/iblock/06a/mzqya9n06kugac9h2dciewhqiq46azu0.jpg" width="520"
+                        height="349" alt="Золотые медали качества!" title="Золотые медали качества!">
+                    </span>
+                    <span class="inline-block-text-wrap">
+                      <span class="inline-block-title">"Мясницкий ряд" и Music Box</span>
+                      <span class="inline-block-text"></span>
+                      <span class="inline-block-date">25.04.2023</span>
+                    </span>
+                  </a>
+                  <a class="inline-block" href="/news/rebrending/">
+                    <span class="img-wrap">
+                      <img src="https://kolbasa.ru/upload/iblock/06a/mzqya9n06kugac9h2dciewhqiq46azu0.jpg" width="520"
+                        height="349" alt="Золотые медали качества!" title="Золотые медали качества!">
+                    </span>
+                    <span class="inline-block-text-wrap">
+                      <span class="inline-block-title">Долгожданный ребрендинг!</span>
+                      <span class="inline-block-text">Встречайте обновленный «Мясницкий ряд»
                       </span>
-                      <span class="name"><span class="name-inner"><span class="name-txt">Гороховый
-                            суп</span></span></span>
-                    </a>
+                      <span class="inline-block-date">11.04.2023</span>
+                    </span>
+                  </a>
+                </div>
+                <div class="slider-arrow slider-arrow_news">
+                  <div class="slider-next " style="">
+                    <i class="icon-arr">
+                      <svg>
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="css/_i/icons.svg#icon-56"></use>
+                      </svg>
+                    </i>
                   </div>
-                  <div class="recipe">
-                    <a href="/gotovim_vmeste/recepty/solyanka-sbornaya-myasnaya/"
-                      style="background-image: url('https://kolbasa.ru/upload/resize_cache/iblock/71a/520_349_2/71a9c686ebf7661d6d47e0606c7254fd.jpg');">
-                      <span class="video">Видео<i class="blue"><!-- --></i></span> <img
-                        src="https://kolbasa.ru/upload/resize_cache/iblock/71a/520_349_2/71a9c686ebf7661d6d47e0606c7254fd.jpg"
-                        alt="Солянка сборная мясная" title="Солянка сборная мясная">
-                      <span class="recipe-body">
-                        <span class="title">Солянка сборная мясная</span>
-                        <span class="descr">Ставим вариться ребра "Пикантные" и "Оригинальные" на 20 минут в 4 литрах
-                          кипящей вод...</span>
-                        <span class="read-more">Подробнее</span>
-                      </span>
-                      <span class="name"><span class="name-inner"><span class="name-txt">Солянка сборная
-                            мясная</span></span></span>
-                    </a>
-                  </div>
-                  <div class="recipe">
-                    <a href="/gotovim_vmeste/recepty/bigos-polskiy/"
-                      style="background-image: url('https://kolbasa.ru/upload/resize_cache/iblock/07c/520_349_2/07c2ce798a4fc3fb2afa6f5a2f1f71e8.jpg');">
-                      <span class="video">Видео<i class="blue"><!-- --></i></span> <img
-                        src="https://kolbasa.ru/upload/resize_cache/iblock/07c/520_349_2/07c2ce798a4fc3fb2afa6f5a2f1f71e8.jpg"
-                        alt="Бигос «Польский»" title="Бигос «Польский»">
-                      <span class="recipe-body">
-                        <span class="title">Бигос «Польский»</span>
-                        <span class="descr">Свежую капусту нашинковать соломкой. Морковь и репчатый лук почистить и
-                          нарезать ...</span>
-                        <span class="read-more">Подробнее</span>
-                      </span>
-                      <span class="name"><span class="name-inner"><span class="name-txt">Бигос
-                            «Польский»</span></span></span>
-                    </a>
-                  </div>
-                  <div class="recipe">
-                    <a href="/gotovim_vmeste/recepty/salat-tsezar-s-kuritsey/"
-                      style="background-image: url('https://kolbasa.ru/upload/resize_cache/iblock/f36/520_349_2/f36f187c82556c73834e8a0c94cbf3d0.jpg');">
-                      <img
-                        src="https://kolbasa.ru/upload/resize_cache/iblock/f36/520_349_2/f36f187c82556c73834e8a0c94cbf3d0.jpg"
-                        alt="Салат &quot;Цезарь&quot; с курицей" title="Салат &quot;Цезарь&quot; с курицей">
-                      <span class="recipe-body">
-                        <span class="title">Салат &quot;Цезарь&quot; с курицей</span>
-                        <span class="descr">Мясо курицы отделить от кости, порезать на кусочки, слегка обжарить и
-                          остудить.
-
-                          Са...</span>
-                        <span class="read-more">Подробнее</span>
-                      </span>
-                      <span class="name"><span class="name-inner"><span class="name-txt">Салат &quot;Цезарь&quot; с
-                            курицей</span></span></span>
-                    </a>
-                  </div>
-                  <div class="recipe">
-                    <a href="/gotovim_vmeste/recepty/domashnyaya-solyanka-s-kolbasoy-krakovskoy/"
-                      style="background-image: url('https://kolbasa.ru/upload/resize_cache/iblock/e07/520_349_2/e07444115ecc6c271fb8315afa91277f.jpg');">
-                      <img
-                        src="https://kolbasa.ru/upload/resize_cache/iblock/e07/520_349_2/e07444115ecc6c271fb8315afa91277f.jpg"
-                        alt="Домашняя солянка с колбасой &quot;краковской&quot;"
-                        title="Домашняя солянка с колбасой &quot;краковской&quot;">
-                      <span class="recipe-body">
-                        <span class="title">Домашняя солянка с колбасой &quot;краковской&quot;</span>
-                        <span class="descr">Колбасу нарезать круглыми ломтиками.
-
-                          Лук мелко покрошить и слегка обжарить на ра�...</span>
-                        <span class="read-more">Подробнее</span>
-                      </span>
-                      <span class="name"><span class="name-inner"><span class="name-txt">Домашняя солянка с колбасой
-                            &quot;краковской&quot;</span></span></span>
-                    </a>
+                  <div class="slider-prev " style="">
+                    <i class="icon-arr">
+                      <svg>
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="css/_i/icons.svg#icon-56"></use>
+                      </svg>
+                    </i>
                   </div>
                 </div>
-                <div class="slider-arrow">
-                  <div class="slider-next"><i class="icon-arr"><svg>
-                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="css/_i/icons.svg#icon-56"></use>
-                      </svg></i></div>
-                  <div class="slider-prev"><i class="icon-arr"><svg>
-                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="css/_i/icons.svg#icon-56"></use>
-                      </svg></i></div>
-                </div>
-              </div>
-              <div class="text-holder">
-                <p class="ta-center"><a class="btn" href="/gotovim_vmeste/recepty/">Все рецепты</a></p>
               </div>
             </div>
           </div>
-          <div id="bxdynamic_d42sdq_end" style="display:none"></div>
-          <div class="h1 icon-top"><i class="icon icon-secret"><svg>
-                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="css/_i/icons.svg#icon-07"></use>
-              </svg></i><span>Секреты Мясницкого ряда</span></div>
-          <div class="advantages-wrap">
-            <div class="adv-item">
-              <a href="/proizvodstvo/kak_proizvoditsja_produkcija/">
-                <span class="img">
-                  <img width="150" src="/_v/kolbasa/_i/icon-adv-01.png" height="100">
-                  <svg>
-                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="css/_i/icons.svg#icon-27"></use>
-                  </svg>
-                </span>
-                <span class="title">Как и где производится <br>
-                  наша продукция?</span>
-              </a>
+          <!-- /.newsindex -->
+          <div class="catalogindex">
+            <div class="h1">Виды продукции</div>
+            <!-- /.h1 -->
+            <div class="indexcat__items">
+              <div class="indexcat__item  indexcat__item_large">
+                <a href="/catalog/kolbasy/" class="indexcat__link">
+                  <div class="indexcat__wrapper" style="background-image: url(/img/indexcat__item1.svg); ">
+                    <div class="indexcat__content">
+                      <div class="indexcat__header">
+                        <div class="indexcat__title">Полуфабрикаты</div>
+                      </div>
+                      <div class="indexcat__text">Подробнее</div>
+                    </div>
+                    <!-- /.indexcat__content -->
+                    <div class="indexcat__image"><img src="/img/indexcat__image1.png" alt="Колбасы"></div>
+                  </div>
+                  <!-- /.indexcat__wrapper -->
+                </a>
+              </div>
+              <div class="indexcat__item  indexcat__item_small">
+                <a href="/catalog/gotovoe_k_prigotovleniyu/" class="indexcat__link">
+                  <div class="indexcat__wrapper" style="background-image: url(/img/indexcat__item2.svg); ">
+                    <div class="indexcat__content">
+                      <div class="indexcat__header">
+                        <div class="indexcat__title">Мясные
+                          консервы</div>
+                      </div>
+                      <div class="indexcat__text">Подробнее</div>
+                    </div>
+                    <!-- /.indexcat__content -->
+                    <div class="indexcat__image"><img src="/img/indexcat__image2.png" alt="Готовое к приготовлению">
+                    </div>
+                  </div>
+                  <!-- /.indexcat__wrapper -->
+                </a>
+              </div>
+              <div class="indexcat__item  indexcat__item_small">
+                <a href="/catalog/gotovoe_k_prigotovleniyu/" class="indexcat__link">
+                  <div class="indexcat__wrapper" style="background-image: url(/img/indexcat__item3.svg); ">
+                    <div class="indexcat__content">
+                      <div class="indexcat__header">
+                        <div class="indexcat__title">Морепродукты</div>
+                      </div>
+                      <div class="indexcat__text">Подробнее</div>
+                    </div>
+                    <!-- /.indexcat__content -->
+                    <div class="indexcat__image"><img src="/img/indexcat__image3.png" alt="Готовое к приготовлению">
+                    </div>
+                  </div>
+                  <!-- /.indexcat__wrapper -->
+                </a>
+              </div>
+
+              <div class="indexcat__item  indexcat__item_small">
+                <a href="/catalog/gotovoe_k_prigotovleniyu/" class="indexcat__link">
+                  <div class="indexcat__wrapper" style="background-image: url(/img/indexcat__item3.svg); ">
+                    <div class="indexcat__content">
+                      <div class="indexcat__header">
+                        <div class="indexcat__title">Молочные
+                          продукты</div>
+                      </div>
+                      <div class="indexcat__text">Подробнее</div>
+                    </div>
+                    <!-- /.indexcat__content -->
+                    <div class="indexcat__image"><img src="/img/indexcat__image3.png" alt="Готовое к приготовлению">
+                    </div>
+                  </div>
+                  <!-- /.indexcat__wrapper -->
+                </a>
+              </div>
+              <div class="indexcat__item  indexcat__item_small">
+                <a href="/catalog/gotovoe_k_prigotovleniyu/" class="indexcat__link">
+                  <div class="indexcat__wrapper" style="background-image: url(/img/indexcat__item3.svg); ">
+                    <div class="indexcat__content">
+                      <div class="indexcat__header">
+                        <div class="indexcat__title">Фрукты,
+                          овощи</div>
+                      </div>
+                      <div class="indexcat__text">Подробнее</div>
+                    </div>
+                    <!-- /.indexcat__content -->
+                    <div class="indexcat__image"><img src="/img/indexcat__image3.png" alt="Готовое к приготовлению">
+                    </div>
+                  </div>
+                  <!-- /.indexcat__wrapper -->
+                </a>
+              </div>
+
+              <div class="indexcat__item  indexcat__item_large">
+                <a href="/catalog/kolbasy/" class="indexcat__link">
+                  <div class="indexcat__wrapper" style="background-image: url(/img/indexcat__item1.svg); ">
+                    <div class="indexcat__content">
+                      <div class="indexcat__header">
+                        <div class="indexcat__title">На шашлык</div>
+                      </div>
+                      <div class="indexcat__text">Подробнее</div>
+                    </div>
+                    <!-- /.indexcat__content -->
+                    <div class="indexcat__image"><img src="/img/indexcat__image1.png" alt="Колбасы"></div>
+                  </div>
+                  <!-- /.indexcat__wrapper -->
+                </a>
+              </div>
+
+
+              <div class="indexcat__item  indexcat__item_large">
+                <a href="/catalog/kolbasy/" class="indexcat__link">
+                  <div class="indexcat__wrapper" style="background-image: url(/img/indexcat__item1.svg); ">
+                    <div class="indexcat__content">
+                      <div class="indexcat__header">
+                        <div class="indexcat__title">Полуфабрикаты</div>
+                      </div>
+                      <div class="indexcat__text">Подробнее</div>
+                    </div>
+                    <!-- /.indexcat__content -->
+                    <div class="indexcat__image"><img src="/img/indexcat__image1.png" alt="Колбасы"></div>
+                  </div>
+                  <!-- /.indexcat__wrapper -->
+                </a>
+              </div>
+              <div class="indexcat__item  indexcat__item_small">
+                <a href="/catalog/gotovoe_k_prigotovleniyu/" class="indexcat__link">
+                  <div class="indexcat__wrapper" style="background-image: url(/img/indexcat__item2.svg); ">
+                    <div class="indexcat__content">
+                      <div class="indexcat__header">
+                        <div class="indexcat__title">Мясные
+                          консервы</div>
+                      </div>
+                      <div class="indexcat__text">Подробнее</div>
+                    </div>
+                    <!-- /.indexcat__content -->
+                    <div class="indexcat__image"><img src="/img/indexcat__image2.png" alt="Готовое к приготовлению">
+                    </div>
+                  </div>
+                  <!-- /.indexcat__wrapper -->
+                </a>
+              </div>
+              <div class="indexcat__item  indexcat__item_small">
+                <a href="/catalog/gotovoe_k_prigotovleniyu/" class="indexcat__link">
+                  <div class="indexcat__wrapper" style="background-image: url(/img/indexcat__item3.svg); ">
+                    <div class="indexcat__content">
+                      <div class="indexcat__header">
+                        <div class="indexcat__title">Морепродукты</div>
+                      </div>
+                      <div class="indexcat__text">Подробнее</div>
+                    </div>
+                    <!-- /.indexcat__content -->
+                    <div class="indexcat__image"><img src="/img/indexcat__image3.png" alt="Готовое к приготовлению">
+                    </div>
+                  </div>
+                  <!-- /.indexcat__wrapper -->
+                </a>
+              </div>
             </div>
-            <div class="adv-item">
-              <a href="/proizvodstvo/ehkskursiya/"> <span class="img"> <img width="100"
-                    src="/_v/kolbasa/_i/icon-adv-02.png" height="100"> <svg>
-                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="css/_i/icons.svg#icon-28"></use>
-                  </svg></span> <span class="title">Виртуальная <br>
-                  экскурсия на завод</span> </a>
-            </div>
-            <div class="adv-item">
-              <a href="/polezno_znat/"> <span class="img"> <img width="100" src="/_v/kolbasa/_i/icon-adv-03.png"
-                    height="100"> <svg>
-                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="css/_i/icons.svg#icon-30"></use>
-                  </svg></span> <span class="title">Полезно <br>
-                  знать</span> </a>
-            </div>
-            <div class="adv-item">
-              <a href="/gotovim_vmeste/"> <span class="img"> <img width="100" src="/_v/kolbasa/_i/icon-adv-04.png"
-                    height="100"> <svg>
-                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="css/_i/icons.svg#icon-29"></use>
-                  </svg></span> <span class="title">Готовим вместе</span> </a>
-            </div>
+            <div class="showmore"> <a href="#" class=" btnmain">Смотреть еще</a><!-- /.showmore -->
+            </div><!-- /.showmore -->
           </div>
-          <br>
+          <!-- /.catalogindex -->
 
-          <div id="bxdynamic_CpmJaV_start" style="display:none"></div>
-          <div id="bxdynamic_CpmJaV_end" style="display:none"></div>
+          <div class="advantagesblock">
+            <div class="h1">Секреты мясницкого ряда</div><!-- /.h1 -->
+            <div class="advantages-wrap">
+              <div class="adv-item">
+                <a href="/proizvodstvo/kak_proizvoditsja_produkcija/">
+                  <span class="advantages-img">
+                    <img src="/img/fitchesblock1.svg">
 
+                  </span>
+                  <span class="advantages-title">Как и где производится <br>
+                    наша продукция?</span>
+                </a>
+              </div>
+              <div class="adv-item">
+                <a href="/proizvodstvo/ehkskursiya/">
+                  <span class="advantages-img">
+                    <img src="/img/fitchesblock2.svg">
 
+                  </span>
+                  <span class="advantages-title">Виртуальная <br>
+                    экскурсия на завод</span>
+                </a>
+              </div>
+              <div class="adv-item">
+                <a href="/polezno_znat/">
+                  <span class="advantages-img">
+                    <img src="/img/fitchesblock3.svg">
 
+                  </span>
+                  <span class="advantages-title">Полезно <br>
+                    знать</span>
+                </a>
+              </div>
+              <div class="adv-item">
+                <a href="/gotovim_vmeste/">
+                  <span class="advantages-img">
+                    <img src="/img/fitchesblock4.svg">
 
+                  </span>
+                  <span class="advantages-title">Готовим вместе</span>
+                </a>
+              </div>
+            </div>
+          </div><!-- /.fitchesblock -->
+
+          <div class="recipesindex">
+            <div class="h1 ">
+              <span>Рецепты</span>
+            </div>
+            <div class="full-width">
+              <div class="recipes-wrap">
+                <div class="recipe full-width-recipe"
+                  style="background-image: url('https://kolbasa.ru/upload/resize_cache/iblock/360/1570_470_2/360e9d9347a3fee7c9ab064ca36ae9a1.jpg');">
+                  <div class="recipe-body">
+                    <div class="recipe-holder">
+                      <p class="title">Паста с бужениной</p>
+                      <p class="descr">Макароны отварите и обжарьте на оливковом масле.
+                        Буженину нарежьте кусочками и тоже слегка обжарьте.
+                        Перец нарежьте дольками и обжарьте отдельно.
+                        На тарелку положите макароны и украсьте бужениной и перцем, выложенными веером.
+                        Посыпьте базиликом и тертым сыром.
+                      </p>
+                      <a class="read-more" href="/gotovim_vmeste/recepty/pasta-s-buzheninoy/">Подробнее</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="recipes-slider-wrap">
+                  <div class="recipes-slider">
+                    <div class="recipe">
+                      <a href="/gotovim_vmeste/recepty/gorokhovyy-sup/"
+                        style="background-image: url('https://kolbasa.ru/upload/resize_cache/iblock/61b/520_349_2/61be3bc2264a72c9cfc8dc7e3270c7e9.jpg');">
+                        <span class="video">
+                          Видео
+                          <i class="blue">
+                            <!-- -->
+                          </i>
+                        </span>
+                        <img
+                          src="https://kolbasa.ru/upload/resize_cache/iblock/61b/520_349_2/61be3bc2264a72c9cfc8dc7e3270c7e9.jpg"
+                          alt="Гороховый суп" title="Гороховый суп">
+                        <span class="recipe-body">
+                          <span class="title">Гороховый суп</span>
+                          <span class="descr">Горох тщательно промойте в холодной воде. Картошку нарежьте аккуратными
+                            кубиками...</span>
+                          <span class="read-more">Подробнее</span>
+                        </span>
+                        <span class="name"><span class="name-inner"><span class="name-txt">Гороховый
+                              суп</span></span></span>
+                      </a>
+                    </div>
+                    <div class="recipe">
+                      <a href="/gotovim_vmeste/recepty/solyanka-sbornaya-myasnaya/"
+                        style="background-image: url('https://kolbasa.ru/upload/resize_cache/iblock/71a/520_349_2/71a9c686ebf7661d6d47e0606c7254fd.jpg');">
+                        <span class="video">
+                          Видео
+                          <i class="blue">
+                            <!-- -->
+                          </i>
+                        </span>
+                        <img
+                          src="https://kolbasa.ru/upload/resize_cache/iblock/71a/520_349_2/71a9c686ebf7661d6d47e0606c7254fd.jpg"
+                          alt="Солянка сборная мясная" title="Солянка сборная мясная">
+                        <span class="recipe-body">
+                          <span class="title">Солянка сборная мясная</span>
+                          <span class="descr">Ставим вариться ребра "Пикантные" и "Оригинальные" на 20 минут в 4 литрах
+                            кипящей вод...</span>
+                          <span class="read-more">Подробнее</span>
+                        </span>
+                        <span class="name"><span class="name-inner"><span class="name-txt">Солянка сборная
+                              мясная</span></span></span>
+                      </a>
+                    </div>
+                    <div class="recipe">
+                      <a href="/gotovim_vmeste/recepty/bigos-polskiy/"
+                        style="background-image: url('https://kolbasa.ru/upload/resize_cache/iblock/07c/520_349_2/07c2ce798a4fc3fb2afa6f5a2f1f71e8.jpg');">
+                        <span class="video">
+                          Видео
+                          <i class="blue">
+                            <!-- -->
+                          </i>
+                        </span>
+                        <img
+                          src="https://kolbasa.ru/upload/resize_cache/iblock/07c/520_349_2/07c2ce798a4fc3fb2afa6f5a2f1f71e8.jpg"
+                          alt="Бигос «Польский»" title="Бигос «Польский»">
+                        <span class="recipe-body">
+                          <span class="title">Бигос «Польский»</span>
+                          <span class="descr">Свежую капусту нашинковать соломкой. Морковь и репчатый лук почистить и
+                            нарезать ...</span>
+                          <span class="read-more">Подробнее</span>
+                        </span>
+                        <span class="name"><span class="name-inner"><span class="name-txt">Бигос
+                              «Польский»</span></span></span>
+                      </a>
+                    </div>
+                    <div class="recipe">
+                      <a href="/gotovim_vmeste/recepty/salat-tsezar-s-kuritsey/"
+                        style="background-image: url('https://kolbasa.ru/upload/resize_cache/iblock/f36/520_349_2/f36f187c82556c73834e8a0c94cbf3d0.jpg');">
+                        <img
+                          src="https://kolbasa.ru/upload/resize_cache/iblock/f36/520_349_2/f36f187c82556c73834e8a0c94cbf3d0.jpg"
+                          alt="Салат &quot;Цезарь&quot; с курицей" title="Салат &quot;Цезарь&quot; с курицей">
+                        <span class="recipe-body">
+                          <span class="title">Салат &quot;Цезарь&quot; с курицей</span>
+                          <span class="descr">Мясо курицы отделить от кости, порезать на кусочки, слегка обжарить и
+                            остудить.
+                            Са...</span>
+                          <span class="read-more">Подробнее</span>
+                        </span>
+                        <span class="name"><span class="name-inner"><span class="name-txt">Салат &quot;Цезарь&quot; с
+                              курицей</span></span></span>
+                      </a>
+                    </div>
+                    <div class="recipe">
+                      <a href="/gotovim_vmeste/recepty/domashnyaya-solyanka-s-kolbasoy-krakovskoy/"
+                        style="background-image: url('https://kolbasa.ru/upload/resize_cache/iblock/e07/520_349_2/e07444115ecc6c271fb8315afa91277f.jpg');">
+                        <img
+                          src="https://kolbasa.ru/upload/resize_cache/iblock/e07/520_349_2/e07444115ecc6c271fb8315afa91277f.jpg"
+                          alt="Домашняя солянка с колбасой &quot;краковской&quot;"
+                          title="Домашняя солянка с колбасой &quot;краковской&quot;">
+                        <span class="recipe-body">
+                          <span class="title">Домашняя солянка с колбасой &quot;краковской&quot;</span>
+                          <span class="descr">Колбасу нарезать круглыми ломтиками.
+                            Лук мелко покрошить и слегка обжарить на ра�...</span>
+                          <span class="read-more">Подробнее</span>
+                        </span>
+                        <span class="name"><span class="name-inner"><span class="name-txt">Домашняя солянка с колбасой
+                              &quot;краковской&quot;</span></span></span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="slider-arrow">
+                    <div class="slider-next">
+                      <i class="icon-arr">
+                        <svg>
+                          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="css/_i/icons.svg#icon-56"></use>
+                        </svg>
+                      </i>
+                    </div>
+                    <div class="slider-prev">
+                      <i class="icon-arr">
+                        <svg>
+                          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="css/_i/icons.svg#icon-56"></use>
+                        </svg>
+                      </i>
+                    </div>
+                  </div>
+                </div>
+                <div class="text-holder">
+                  <p class="ta-center"><a class="btn" href="/gotovim_vmeste/recepty/">Все рецепты</a></p>
+                </div>
+              </div>
+            </div>
+          </div><!-- /.recipesindex -->
 
 
         </div>
       </div>
       <!--END content -->
-
     </div>
   </div>
   <!-- END wrapper -->
-
   <!-- BEGIN footer -->
   <footer class="footer">
     <div class="holder">
       <div class="content contacts">
-
-
         <div class="phone-num mob">
-          <i class="icon icon-phone"><svg>
+          <i class="icon icon-phone">
+            <svg>
               <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="css/_i/icons.svg#icon-26"></use>
-            </svg></i>Телефон горячей линии <br />
+            </svg>
+          </i>
+          Телефон горячей линии <br />
           <a href="tel:+79854113341"><span>+7 (985)</span> 41-133-41</a>
         </div>
         <div class="all_right">
-
-          <a class="write-us mob popup-show form-popup" data-fancybox data-src="#form-popup" href="javascript:;"><i
-              class="icon icon-letter"><svg>
+          <a class="write-us mob popup-show form-popup" data-fancybox data-src="#form-popup" href="javascript:;">
+            <i class="icon icon-letter">
+              <svg>
                 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="css/_i/icons.svg#icon-35"></use>
-              </svg></i>Написать нам</a>
-
+              </svg>
+            </i>
+            Написать нам
+          </a>
           <ul class="social ta-center mob">
             <noindex>
-              <li><a href="https://vk.com/kolbasamr" rel="nofollow" target="_blank"><i class="icon icon-vk"><svg>
+              <li>
+                <a href="https://vk.com/kolbasamr" rel="nofollow" target="_blank">
+                  <i class="icon icon-vk">
+                    <svg>
                       <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="css/_i/icons.svg#icon-52"></use>
-                    </svg></i></a></li>
-              <li><a href="https://ok.ru/kolbasamr/" rel="nofollow" target="_blank"><i class="icon icon-ok"><svg>
+                    </svg>
+                  </i>
+                </a>
+              </li>
+              <li>
+                <a href="https://ok.ru/kolbasamr/" rel="nofollow" target="_blank">
+                  <i class="icon icon-ok">
+                    <svg>
                       <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="css/_i/icons.svg#icon-54"></use>
-                    </svg></i></a></li>
+                    </svg>
+                  </i>
+                </a>
+              </li>
             </noindex>
           </ul>
         </div>
@@ -733,7 +1033,6 @@
           <p style="text-align: center;">
           </p>
         </div>
-
         <div class="column">
           <div class="vcard">
             <a class="photo" href="css/_i/logo.png"></a>
@@ -741,7 +1040,6 @@
               <span class="category">Мясоперерабатывающий завод</span>
               <span class="fn org">Мясницкий ряд</span>
             </div>
-
             <div class="adr">
               <span class="country-name">Россия</span>
               <span class="region">Московская область</span>,
@@ -757,33 +1055,35 @@
             </a>
           </div>
         </div>
-
         <noindex>
           <a class="artus" href="http://www.artus.ru/" target="_blank" rel="nofollow">
-            <span class="logo"><svg>
+            <span class="logo">
+              <svg>
                 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="css/_i/icons.svg#icon-55"></use>
-              </svg></span>
+              </svg>
+            </span>
             <span>Создание сайтов — <br /> интернет-агентство «Артус»
             </span>
           </a>
         </noindex>
-
         <div class="clearfix"></div>
       </div>
     </div>
   </footer>
   <!-- FOOTER end -->
-
   <!-- popup's -->
   <div class="popup form-popup" style="display: none;" id="form-popup">
-    <div class="popup-close"><svg>
+    <div class="popup-close">
+      <svg>
         <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="css/_i/icons.svg#icon-41"></use>
-      </svg></div>
+      </svg>
+    </div>
     <div class="callback-title">
       <span>Обратная связь</span>
     </div>
     <p class='form-description'>Если у вас возникли вопросы, связанные с работой сайта, и вы не нашли ответы на них в
-      разделах Помощи, вы можете задать их через форму ниже.</p>
+      разделах Помощи, вы можете задать их через форму ниже.
+    </p>
     <div class="form-wrap">
       <form action="#" id="form-contact">
         <input type="hidden" name="form_text_5" value="popup">
@@ -823,7 +1123,6 @@
           <div id="capthca" style="margin: 11px 0;">
           </div>
         </div>
-
         <div class="row">
           <div class="personal_data_checkbox">
             <label for="personal_data" class="req">
@@ -836,7 +1135,6 @@
             <p class="err-msg ta-left">&nbsp;</p>
           </div>
         </div>
-
         <div class="row" style="text-align: center">
           <span>
             <input class="btn" type="submit" value="Отправить">
@@ -847,11 +1145,12 @@
         </div>
       </form>
       <div class="load-block">
-        <i class="preloader"><!-- --></i>
+        <i class="preloader">
+          <!-- -->
+        </i>
       </div>
     </div>
   </div>
-
   <div class="popup form-popup" style="display: none;" id="form-popup-ok">
     <div class="form-popup-holder">
       <div class="callback-title"><span>Обратная связь</span></div>
@@ -859,28 +1158,28 @@
       <p class="ta-center"><a class="btn" data-fancybox-close href="javascript:;">Закрыть</a></p>
     </div>
   </div>
-
-
   <div class="box-modal" id="notification_of_cookie" style="display: none;">
     <div class="box-modal_close" id="cookie-info-close">X</div>
     <div>Данный сайт использует cookie-файлы, а также собирает данные об IP-адресе и местоположении с целью
       предоставления наиболее корректной информации по Вашему запросу. Продолжая использовать данный ресурс, Вы
-      автоматически соглашаетесь с использованием данных технологий. Вы можете запретить сохранение cookie в настройках
-      своего браузера. <a href="/politika-konfidentsialnosti.php">Подробнее…</a></div>
+      автоматически соглашаетесь с использованием данных технологий. Вы можете запретить сохранение cookie в
+      настройках
+      своего браузера. <a href="/politika-konfidentsialnosti.php">Подробнее…</a>
+    </div>
     <div class="btn_border" id="cookie-info-btn">Понятно</div>
   </div>
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KMTWMBP" height="0" width="0"
       style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
-
   <script
     type="text/javascript">if (!window.BX) window.BX = {}; if (!window.BX.message) window.BX.message = function (mess) { if (typeof mess === 'object') { for (let i in mess) { BX.message[i] = mess[i]; } return true; } };</script>
   <script
     type="text/javascript">(window.BX || top.BX).message({ 'JS_CORE_LOADING': 'Загрузка...', 'JS_CORE_NO_DATA': '- Нет данных -', 'JS_CORE_WINDOW_CLOSE': 'Закрыть', 'JS_CORE_WINDOW_EXPAND': 'Развернуть', 'JS_CORE_WINDOW_NARROW': 'Свернуть в окно', 'JS_CORE_WINDOW_SAVE': 'Сохранить', 'JS_CORE_WINDOW_CANCEL': 'Отменить', 'JS_CORE_WINDOW_CONTINUE': 'Продолжить', 'JS_CORE_H': 'ч', 'JS_CORE_M': 'м', 'JS_CORE_S': 'с', 'JSADM_AI_HIDE_EXTRA': 'Скрыть лишние', 'JSADM_AI_ALL_NOTIF': 'Показать все', 'JSADM_AUTH_REQ': 'Требуется авторизация!', 'JS_CORE_WINDOW_AUTH': 'Войти', 'JS_CORE_IMAGE_FULL': 'Полный размер' });</script>
   <script type="text/javascript" src="/bitrix/js/main/core/core.min.js?1656746581216224"></script>
   <script>BX.setJSList(['/bitrix/js/main/core/core_ajax.js', '/bitrix/js/main/core/core_promise.js', '/bitrix/js/main/polyfill/promise/js/promise.js', '/bitrix/js/main/loadext/loadext.js', '/bitrix/js/main/loadext/extension.js', '/bitrix/js/main/polyfill/promise/js/promise.js', '/bitrix/js/main/polyfill/find/js/find.js', '/bitrix/js/main/polyfill/includes/js/includes.js', '/bitrix/js/main/polyfill/matches/js/matches.js', '/bitrix/js/ui/polyfill/closest/js/closest.js', '/bitrix/js/main/polyfill/fill/main.polyfill.fill.js', '/bitrix/js/main/polyfill/find/js/find.js', '/bitrix/js/main/polyfill/matches/js/matches.js', '/bitrix/js/main/polyfill/core/dist/polyfill.bundle.js', '/bitrix/js/main/core/core.js', '/bitrix/js/main/polyfill/intersectionobserver/js/intersectionobserver.js', '/bitrix/js/main/lazyload/dist/lazyload.bundle.js', '/bitrix/js/main/polyfill/core/dist/polyfill.bundle.js', '/bitrix/js/main/parambag/dist/parambag.bundle.js']);
-    BX.setCSSList(['/bitrix/js/main/lazyload/dist/lazyload.bundle.css', '/bitrix/js/main/parambag/dist/parambag.bundle.css']);</script>
+    BX.setCSSList(['/bitrix/js/main/lazyload/dist/lazyload.bundle.css', '/bitrix/js/main/parambag/dist/parambag.bundle.css']);
+  </script>
   <script
     type="text/javascript">(window.BX || top.BX).message({ 'pull_server_enabled': 'N', 'pull_config_timestamp': '0', 'pull_guest_mode': 'N', 'pull_guest_user_id': '0' }); (window.BX || top.BX).message({ 'PULL_OLD_REVISION': 'Для продолжения корректной работы с сайтом необходимо перезагрузить страницу.' });</script>
   <script
@@ -930,13 +1229,8 @@
         BX.ready(counter);
     })();
   </script>
-
-
-
   <script
     type="text/javascript">var _ba = _ba || []; _ba.push(["aid", "be5a0d421c579a0bd18bb181aa73ae31"]); _ba.push(["host", "kolbasa.ru"]); (function () { var ba = document.createElement("script"); ba.type = "text/javascript"; ba.async = true; ba.src = (document.location.protocol == "https:" ? "https://" : "http://") + "bitrix.info/ba.js"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ba, s); })();</script>
-
-
   <script src="https://kolbasa.ru/_v/kolbasa/_js/jquery-3.1.1.min.js?149251322386709"></script>
   <script src="https://kolbasa.ru/_v/kolbasa/_js/jquery.selectric.min.js?149251322314047"></script>
   <script src="https://kolbasa.ru/_v/kolbasa/_js/selectize.js?1496847371104102"></script>
@@ -946,12 +1240,9 @@
   <script src="https://kolbasa.ru/_v/kolbasa/_js/jquery.scrollbar.min.js?149260404413026"></script>
   <script src="https://kolbasa.ru/_v/kolbasa/_js/slick.min.js?149251322441953"></script>
   <script src="https://kolbasa.ru/_v/kolbasa/_js/jquery.validate.js?149251322347524"></script>
-
   <script
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDGC9lrwbtUTUA7GCWvDfuRuF0g17jEdjs&language=ru"></script>
   <script src="https://api-maps.yandex.ru/2.0/?load=package.full&lang=ru-RU" type="text/javascript"></script>
-
-
   <script src="https://kolbasa.ru/_v/kolbasa/_js/markerwithlabel.js?149251322323034"></script>
   <script src="https://kolbasa.ru/_v/kolbasa/_js/jquery-ui.min.js?1492513223253668"></script>
   <script src="https://kolbasa.ru/_v/kolbasa/_js/jquery.maskedinput.min.js?14925132234324"></script>
@@ -963,7 +1254,7 @@
   <script src="https://kolbasa.ru/local/templates/main/_js/mr.js?156171686254539"></script>
   <script src="https://kolbasa.ru/local/templates/main/_js/main.js?151720818414029"></script>
   <script src="https://kolbasa.ru/local/templates/main/_js/custom.js?1572542079413"></script>
-
+  <script src="js/restyle.js"></script>
   <script>
     var sliderTime = 2000;
   </script>
