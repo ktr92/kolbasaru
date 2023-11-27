@@ -291,3 +291,117 @@ h1,
 .adv-item:hover .advantages-img {
   transform: translateY(-20px);
 }
+
+.indexcat__item_blue .indexcat__wrapper {
+  background-image: url(/img/indexcat__item1.svg);
+}
+.indexcat__item_beige .indexcat__wrapper {
+  background-image: url(/img/indexcat__item2.svg);
+}
+.indexcat__item_white .indexcat__wrapper {
+  background-image: url(/img/indexcat__item3.svg);
+}
+
+@media (max-width: 1023px) {
+  h1 span,
+  .h1 span,
+  h1,
+  .h1 {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  .indexcat__item {
+    width: 100%;
+  }
+  .indexcat__wrapper {
+    padding: 29px;
+  }
+  .indexcat__item_large .indexcat__title {
+    color: #26292d;
+
+    font-family: RoadRadio;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .indexcat__item_small .indexcat__title {
+    color: #26292d;
+
+    font-family: RoadRadio;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .indexcat__wrapper {
+    height: 168px;
+  }
+  .indexcat__image {
+    max-width: 48%;
+  }
+  .indexcat__title {
+    max-width: 180px;
+  }
+  .showmore .btnmain {
+    width: 100%;
+    height: 46px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46px;
+  }
+  .indexcat__items {
+    margin-bottom: 16px;
+  }
+  .adv-item {
+    float: left;
+    width: 50%;
+    height: unset;
+  }
+  .advantages-img {
+    height: 100px;
+    width: 120px;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+    text-align: center;
+  }
+  .advantages-title {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .adv-item {
+    margin-bottom: 39px;
+  }
+  .advantagesblock {
+    margin-bottom: 10px;
+  }
+  .write-us {
+    padding: 0;
+  }
+  .indexcat__item:nth-child(1) .indexcat__wrapper {
+    background-image: url(/img/indexcat__item2.svg);
+  }
+  .indexcat__item:nth-child(2) .indexcat__wrapper {
+    background-image: url(/img/indexcat__item1.svg);
+  }
+  .indexcat__item:nth-child(3) .indexcat__wrapper {
+    background-image: url(/img/indexcat__item3.svg);
+  }
+  .indexcat__item:nth-child(4) .indexcat__wrapper {
+    background-image: url(/img/indexcat__item2.svg);
+  }
+  .indexcat__item:nth-child(5) .indexcat__wrapper {
+    background-image: url(/img/indexcat__item1.svg);
+  }
+  .indexcat__item:nth-child(6) .indexcat__wrapper {
+    background-image: url(/img/indexcat__item3.svg);
+  }
+}
