@@ -312,7 +312,7 @@ h1,
   color: #000;
   margin-bottom: 19px;
   text-align: center;
-  font-family: "RoadRadio";
+  font-family: "Montserrat";
   font-size: 50px;
   font-style: normal;
   font-weight: 400;
@@ -645,8 +645,7 @@ h1,
   background-image: url(/img/listc.svg);
   background-position: left top;
   background-repeat: no-repeat;
-  color: #000;
-  opacity: 0.7;
+  color: rgba(0, 0, 0, 0.7);
   font-family: "Roboto", "Montserrat";
   font-size: 16px;
   font-style: normal;
@@ -785,10 +784,375 @@ h1,
   border-radius: 555px;
   border: 1px solid rgba(37, 52, 79, 0.15);
 }
+.jobpage {
+  background: rgba(246, 246, 246, 0.96);
+  padding: 56px 0;
+}
+.jobpage__title {
+  color: #ed1e26;
+  margin-bottom: 29px;
+  font-family: "RoadRadio";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.jobpage__params {
+  margin-bottom: 46px;
+}
+
+.jobpage__param {
+  margin-bottom: 13px;
+  color: #26292d;
+
+  font-family: "RoadRadio";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.jobpage__subtitle {
+  color: #26292d;
+  margin-bottom: 28px;
+  font-family: "Montserrat";
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.jobpage__block {
+  margin-bottom: 53px;
+}
+
+.jobpage__text,
+.jobpage__text p {
+  color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 24px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.jobpage__block {
+  max-width: 803px;
+}
+.fileupload input[type="file"] {
+  display: none;
+}
+.filebutton {
+  background-image: url(/img/clip.svg);
+  background-position: left center;
+  background-repeat: no-repeat;
+  color: #04a3e9;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  /* margin-left: 55px; */
+  min-height: 26px;
+  line-height: 26px;
+  padding-left: 34px;
+  text-align: center;
+  transition: all 0.3s ease;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+.filename {
+  padding: 0 5px;
+}
+.filename,
+.filenames {
+  display: inline-block;
+  font-size: 13px;
+  vertical-align: middle;
+}
+.modalform {
+  padding: 56px;
+  width: 739px;
+  max-width: 100%;
+  border-radius: 12px;
+}
+.modalform__title {
+  color: #26292d;
+
+  font-family: "RoadRadio";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 9px;
+}
+.modalform__text {
+  margin-bottom: 33px;
+  color: rgba(0, 0, 0, 0.7);
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+.modalform__form {
+}
+.modalform__row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -8px;
+}
+.modalform__row label {
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 15px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: block;
+}
+.modalform__item {
+  width: 50%;
+  padding: 0 8px;
+  padding-bottom: 30px;
+  position: relative;
+}
+.modalform__item input {
+  border-radius: 8px;
+  background: #f3f3f3;
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none !important;
+  outline: none !important;
+  height: 56px;
+  line-height: 56px;
+  padding: 0 30px;
+}
+.modalform__item input.inputerror {
+  background: rgba(215, 2, 34, 0.1);
+}
+.formerror {
+  position: absolute;
+  top: 90px;
+  margin-top: 5px;
+  color: red;
+  font-size: 12px;
+}
+.modalform__item_full {
+  width: 100%;
+}
+.pageheader__title h1 {
+  font-family: "Montserrat";
+  margin: 0;
+}
+
+.pageheader {
+  margin-top: 50px;
+}
+
+.modalform__item select {
+  border-radius: 8px;
+  background: #f3f3f3;
+  display: block;
+  width: 100%;
+  border: none !important;
+  outline: none !important;
+  height: 56px;
+  line-height: 56px;
+  padding: 0 30px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+}
+
+.modalform__item select option {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+}
+
+.modalform__check {
+}
+.modalform__checkinput {
+}
+.modalform__checkinput input {
+  width: 0;
+  height: 0;
+}
+.modalform__checkinput input + label {
+  padding-left: 35px;
+  color: #3b435a;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 110%;
+  text-decoration: none;
+  text-align: left;
+}
+.modalform__checkinput input + label a {
+  text-decoration-line: underline;
+  color: #3b435a;
+  font-size: 13px;
+  font-weight: 500;
+  font-style: normal;
+
+  line-height: 110%;
+  text-decoration: none;
+  text-align: left;
+}
+.modalform__checkinput input[type="checkbox"] + label:before {
+  display: none;
+}
+.modalform__checkinput input[type="checkbox"] + label:after {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  content: "";
+  width: 18px;
+  height: 18px;
+  border: 1px solid #ebebeb;
+  border-radius: 4px;
+}
+.modalform__checkinput input[type="checkbox"]:checked + label:after {
+  background-image: url(/img/selected_icon.svg);
+  background-position: left center;
+  background-repeat: no-repeat;
+}
+.modalform__checkbutton {
+}
+
+.modalform__check {
+  display: flex;
+  align-items: center;
+}
+
+.modalform__checkbutton {
+  margin-left: 31px;
+}
+
+.formbutton {
+  border: none;
+  border-radius: 555px;
+  background: #d70222;
+  width: 221px;
+  height: 60px;
+  color: #fff;
+
+  text-align: center;
+  font-family: "RoadRadio";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.modalform__item:last-child {
+  padding-bottom: 0;
+}
 
 @media (max-width: 1023px) {
+  .modalform {
+    margin-top: 0;
+    padding: 30px 15px;
+  }
+  .modalform__text {
+    font-size: 14px;
+    margin-bottom: 12px;
+  }
+  .modalform__title {
+    font-size: 24px;
+  }
+  .modalform__row label {
+    margin-bottom: 6px;
+  }
+  .modalform__item input,
+  .modalform__item select {
+    height: 42px;
+    padding-left: 42px;
+    padding: 0 12px;
+    font-size: 14px;
+  }
+  .modalform__item {
+    padding-bottom: 12px;
+  }
+  .modalform__checkbutton {
+    width: 100%;
+    margin-top: 15px;
+    margin-left: 0;
+  }
+  .formbutton {
+    width: 100%;
+  }
+  .formerror {
+    position: static;
+  }
+  .modalform__item {
+    width: 100%;
+  }
+  .modalform__check {
+    flex-wrap: wrap;
+  }
+  .modalform__checkinput {
+    width: 100%;
+  }
+  .pageheader__title h1 {
+    margin-bottom: 15px;
+  }
   .pageheader {
+    margin-top: 25px;
+  }
+  .pageheader .btnicon {
+    width: 100%;
+  }
+  .jobpage {
+    padding: 34px 0;
+  }
+  .jobpage__title {
+    margin-bottom: 20px;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .jobpage__param {
+    font-size: 14px;
+  }
+  .jobpage__block {
+    margin-bottom: 38px;
+  }
+  .jobpage__subtitle {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .pageheader__nav {
+    width: 100%;
+  }
+  .pageheader__breadcrumbs .kolbasa_breadcrumbs {
+    margin-top: 15px;
+    margin-bottom: 23px;
+  }
+  .pageheader_desktop {
     display: none;
+  }
+  .pageheader__flex {
+    flex-wrap: wrap;
+  }
+  .pageheader__title h1 {
+    padding-left: 0;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: left;
   }
   .pageslideritem__wrapper {
     height: unset;
@@ -1044,17 +1408,17 @@ h1,
     font-style: normal;
     font-weight: 400;
   }
-  .imgblock__element .btnicon__text {
+  .btnicon__text {
     font-size: 16px;
     width: 100%;
     text-align: center;
   }
-  .imgblock__element .btnicon__img {
+  .btnicon__img {
     min-width: 36px;
     max-width: 36px;
     height: 36px;
   }
-  .imgblock__element .btnicon__img img {
+  .btnicon__img img {
     width: 22px;
     height: 22px;
   }
