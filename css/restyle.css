@@ -1273,20 +1273,19 @@ h1,
   /*  -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center; */
-  margin: 0 -7px;
+/*   margin: 0 -7px; */
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
 
 .productcard__wrapper {
- border-bottom: 1px solid #EDEDED;
- border-right: 1px solid #EDEDED;;
+
 }
 
 .cataloglist__item {
-  padding: 0 7px;
+/*   padding: 0 7px; */
   border-radius: 6px;
-  margin-bottom: 14px;
+/*   margin-bottom: 14px; */
   width: 25%;
 }
 
@@ -1323,9 +1322,11 @@ button:hover {
 
 .showmorelink {
   background: #ffffff;
-  border: 1px solid rgba(37, 52, 79, 0.15);
+  border: 1px solid #ededed;
+  text-decoration: none;
   border-radius: 8px;
   color: #25344f;
+  text-decoration: none !important;
   display: block;
   padding: 19px 0;
   display: -webkit-box;
@@ -1339,13 +1340,15 @@ button:hover {
   justify-content: center;
 }
 .showmorelink span {
-  
-  font-style: normal;
-  font-weight: 800;
-  font-size: 16px;
-  line-height: 100%;
-  margin-left: 9px;
-  color: #25344f;
+  color: #000;
+padding-left: 12px;
+font-family: 'RoadRadio';
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 100%; 
+text-decoration: none;
+
 }
 
 .catalognav__pagination {
@@ -1379,8 +1382,16 @@ button:hover {
   align-items: center;
 }
 
+.pagination > a.disabled {
+  opacity: 0.3;
+}
+
 .pagination > a {
-  line-height: 34px;
+  line-height: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .pagination ul {
@@ -1403,15 +1414,16 @@ button:hover {
   line-height: 32px;
   text-align: center;
   display: block;
-  width: 36px;
+  min-width: 36px;
   height: 36px;
   color: #25344f;
 }
 
 .pagination ul li a {
-  
+  font-family: 'RoadRadio';
+  padding: 0 4px;
   font-style: normal;
-  font-weight: 800;
+  font-weight: 400;
   font-size: 18px;
   line-height: 36px;
   /* identical to box height */
@@ -1421,8 +1433,8 @@ button:hover {
   display: block;
   padding: 0 4px;
   height: 36px;
-  border: 1px solid rgba(37, 52, 79, 0.15);
-  border-radius: 12px;
+  border: 1px solid rgba(37, 52, 79, 0.15);  border-radius: 555px;
+text-decoration: none;
   min-width: 36px;
 }
 
@@ -1462,13 +1474,15 @@ button:hover {
   background: #f8f8fb;
   border-radius: 8px;
   margin-bottom: 18px;
-  
-  font-style: normal;
-  font-weight: 800;
+  text-decoration: none;
+  color: #25344F;
+
+  font-family: 'RoadRadio';
   font-size: 16px;
-  line-height: 19px;
-  color: #25344f;
-  padding: 13px 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 14px 32px;
   background-image: url(../img/backlink.svg);
   background-position: left 15px center;
   background-repeat: no-repeat;
@@ -1490,23 +1504,27 @@ button:hover {
 
 .catalogcats__item a {
   display: block;
-  font-style: normal;
-  font-weight: 400;
+  font-family: 'Montserrat';
   font-size: 14px;
-  line-height: 21px;
-  color: #25344f;
-  padding: 6px 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 8px 15px 10px 15px;
   border-radius: 6px;
+  text-decoration: none;
+  color: #25344F;
+
+
 }
 
 .catalogcats__item.active a {
-  background: rgba(4, 163, 233, 0.1);
-  color: #04a3e9;
+  background: rgba(237, 30, 38, 0.1);
+  color: rgba(237, 30, 38, 1)
 }
 
 .catalogcats__item:hover a,
 .catalogcats__item:focus a {
-  color: #04a3e9;
+  color: rgba(237, 30, 38, 1)
 }
 
 .catalogcats__count {
@@ -1639,7 +1657,7 @@ button:hover {
   align-items: center;
 }
 .dropdown-select__title:after {
-  content: url("/local/templates/kolbasa/public/css/../img/dropdown_big.svg");
+  content: url("../img/ChevronDown.svg");
   display: inline-block;
   vertical-align: middle;
   margin-left: 5px;
@@ -1710,22 +1728,12 @@ button:hover {
   min-width: 36px;
   text-align: right;
   display: block;
-  padding-top: 4px;
+/*   padding-top: 4px; */
 }
 
-.dropdown-caption {
-  
-  font-style: normal;
-  font-weight: 800;
-  font-size: 16px;
-  line-height: 19px;
-  /* identical to box height */
-  margin-right: 4px;
-  color: rgba(37, 52, 79, 0.4);
-}
 
 .productcard__images {
-  padding: 6px 17px 6px 17px;
+ 
 }
 
 .productcard__img {
@@ -1758,20 +1766,10 @@ line-height: normal;
 .productcard__stickers {
   position: absolute;
   z-index: 999;
-  left: 20px;
-  top: 20px; }
+  left: 10px;
+  top: 10px; }
 
-.productsticker_green {
-  color: #fff;
-  background: #0CBA7A; }
-  .productsticker_green .productsticker__icon {
-    background: #fff;
-    color: #0CBA7A;
-    background: #FFFFFF;
-    border-radius: 5555px;
-    height: 17px;
-    padding: 0 2px;
-    line-height: 17px; }
+
 
 .productcard__sticker--icon .productsticker {
   padding-right: 2px;
@@ -1781,6 +1779,8 @@ line-height: normal;
 
   .productcard {
     position: relative;
+    padding: 10px 20px 21px 24px;
+    border: 1px solid #EDEDED;
   }
   .productsticker {
     display: flex;
@@ -1789,7 +1789,6 @@ line-height: normal;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    width: 50px;
     height: 29px;
   }
 .productsticker__text {
@@ -1805,12 +1804,114 @@ display: block;
 }
   .productsticker_hit {
     background-image: url(../img/sticker_hit.svg);
- 
+    width: 50px;
+
   }
 
+  .productsticker_new {
+    background-image: url(../img/sticker_new.svg);
+    width: 93px;
+  }
 
+  .cataloglist__items {
+    padding: 0;
+  }
+  .cataloglist__item {
+    padding: 0;
+  }
+  .productcard__images  {
+    display: block;
+    margin: 20px 0 40px 0;
+  }
+
+  .productcard__title {
+    margin-bottom: 15px;
+  }
+  .productcard__title a {
+    display: block;
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    font-family: 'RoadRadio';
+    text-decoration: none;
+
+  }
+
+  a.productlink {
+    display: inline-block;
+    border-radius: 555px;
+background: #F5F5F5;
+border: none;
+height: 36px;
+padding: 10px 15px;
+text-transform: uppercase;
+color: #293670;
+font-family: 'RoadRadio';
+text-decoration: none;
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+  }
+  a.productlink:hover {
+    color: #F5F5F5;
+    background: #293670;
+  }
+  .productcard__img img {
+    transition: all 0.3s ease;
+  }
+  .productcard__img:hover img {
+    transform: scale(1.05);
+  }
+
+ /*  .wrapper {
+    max-width: 1920px;
+    margin-left: auto;margin-right: auto;
+  } */
+
+  .content {
+    overflow: visible;
+  }
+  .dropdown-select__title span {
+    color: #000;
+
+font-family: 'RoadRadio';
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+  }
+  .dropdown-caption {
+  
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    margin-right: 4px;
+    opacity: 0.4;
+  }
+  
 
 @media (max-width: 1480px) {
+  .catalogpage__wrapper {
+
+  }
+  .catalogpage__main {
+    width: calc(100% - 200px);
+    padding-left: 10px;
+  }
+  .cataloglist__item {
+    width: 50%;
+  }
+  .catalognav__pagination {
+    flex-wrap: wrap;
+  }
+  .catalognav__pagination > * {
+    width: 100%;
+  }
   .indexcat__item {
     width: 50%;
     max-width: 50%;
@@ -1834,6 +1935,22 @@ line-height: normal;
   }
 }
 @media (max-width: 1023px) {
+  .catalogaside__back {
+    display: none;
+  }
+  .catalogpage__main {
+    width: 100%;
+  }
+  .catalogpage__aside  {
+    width: 100%;
+
+  }
+  .catalogpage__wrapper {
+    flex-wrap: wrap;
+  }
+  .catalogheader *   {
+    font-size: 12px !important;
+  }
   .modalform {
     margin-top: 0;
     padding: 30px 15px;
