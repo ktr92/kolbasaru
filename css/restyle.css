@@ -1901,6 +1901,571 @@ line-height: normal;
     display: none;
   }
 
+
+  .detailslider {
+    margin-bottom: 55px; }
+  
+  .detailslider .swiper {
+    width: 100%;
+    height: 100%; }
+  
+  .detailslider .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  
+  .detailslider .swiper-slide img {
+    display: block;
+    /* width: 100%;
+      height: 100%;
+      */
+    -o-object-fit: cover;
+    object-fit: cover; }
+  
+  .detailslider .swiper {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto; }
+  
+  .detailslider .swiper-slide {
+    background-size: cover;
+    background-position: center; }
+  
+  .detailslider .detailswiper {
+    height: 477px;
+    width: 100%; }
+  
+  .detailslider .detailswiper img {
+    /* width: 100%;
+      */ }
+  
+  .detailslider .detailswiperpreview {
+    height: 477px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 128px;
+    padding-right: 14px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px; }
+  
+  .detailslider .swiper-scrollbar-drag {
+    background: #ED1E26;
+    border-radius: 0; }
+  
+  .detailslider .swiper-scrollbar.swiper-scrollbar-vertical, .detailslider .swiper-vertical > .swiper-scrollbar {
+    width: 4px;
+    background: #F3F3F6; }
+  
+  .detailslider .detailswiperpreview .swiper-slide {
+    height: 90px;
+    width: 90px;
+    overflow: hidden;
+    opacity: 0.5;
+    border-radius: 12px;
+    border: 2px solid #fff;
+    cursor: pointer; }
+  
+  .detailslider .detailswiperpreview .swiper-slide-thumb-active {
+    opacity: 1;
+    outline: 3px solid #0084FE !important; }
+  
+  .detailslider .swiper-slide a {
+    display: block;
+    width: 100%;
+    height: 100%; }
+  
+  .detailslider .swiper-slide img {
+    display: block;
+    /* width: 100%;
+      height: 100%;
+      */
+    -o-object-fit: cover;
+    object-fit: cover; }
+  
+  .detailslider .detailswiperpreview .swiper-slide img {
+    max-height: 100%;
+    max-width: initial;
+    border-radius: 12px; }
+  
+  .detailslider .detailslider__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  
+    border-radius: 8px;
+    border: 1px solid #EDEDED;
+    padding: 12px;
+  }
+  
+  .productpage__left {
+    position: relative; }
+    .productpage__left .productcard__stickers {
+      left: 130px; }
+  
+      .productpage__left {
+        width: 60%;
+    max-width: calc(774px + 45px);
+       padding-right: 45px;
+
+    }
+  
+  .detailslider-pagination {
+    display: none; }
+  
+  /* .productpage__right {
+    width: calc(100% - 585px - 128px); } */
+  
+  .cardrating_large .score-wrap {
+    width: 90px;
+    font-size: 16px; }
+  
+  .cardrating_large .stars-inactive {
+    color: rgba(37, 52, 79, 0.1); }
+  
+  .detailinfo__title h1 {
+    
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 37px;
+    text-transform: capitalize;
+    margin-top: 0;
+    margin-bottom: 11px;
+    color: #25344F; }
+  
+  .detailinfo__header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 24px; }
+  
+  .detailinfo__reviews {
+    margin-right: 22px; }
+  
+  .detailinfo__count a {
+    
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1;
+    margin-left: 5px;
+    border-bottom: 1px solid #25344F;
+    color: #25344F; }
+
+    .detailinfo__buyblock {
+      margin-bottom: 36px; }
+    
+    .detailinfo__moreinfo {
+      margin-bottom: 24px; }
+    
+    .detailtable { }
+    
+    .detailtable__row {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin: 0 -3px;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+      justify-content: space-evenly; }
+
+      .detailtable__col {
+        width: 25%;
+        padding: 0 3px;
+      }
+    
+    .detailtable__content {
+      border: 4px solid #F6F6F6;
+      background: #F6F6F6;
+      border-radius: 8px;
+
+
+    }
+
+    .detailtable__value {
+      background: #FFF;
+      border-radius: 8px;
+      padding: 13px 10px;
+      text-align: center;
+      color: #25344F;
+      white-space: nowrap;
+font-family: 'RoadRadio';
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%;
+    }
+
+    .detailtable__text {
+      text-align: center;
+      color: #25344F;
+      padding: 10px 6px;
+opacity: 0.6;
+font-family: 'RoadRadio';
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%;
+    }
+    
+    .detailtable__body .detailtable__col {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 140%;
+      /* or 25px */
+      color: #25344F; }
+    
+    .detailtable__body .detailtable__row {
+      background: #FFFFFF;
+      border: 4px solid #D9F1FC;
+      border-radius: 8px; }
+    
+
+
+        .productpage__main.flex.content-between {
+          display: flex;
+          justify-content: space-between;
+        }
+
+
+
+        .detailinfo__buttons {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          width: 100%;
+      
+        }
+        .detailinfo__button {
+          margin-right: 8px;
+          width: 50%;
+
+        }
+        .detailinfo__button:last-child {
+          margin-right: 0;
+        }
+        .btn_border {
+          display: block;white-space: nowrap;
+          padding: 14px;
+          border-radius: 555px;
+          border: 1px solid #D70222;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: #D70222;
+          text-decoration: none !important;
+        }
+        .btn_icon {
+        }
+        .btn_text {
+   
+
+          text-align: center;
+          font-family: 'RoadRadio';
+          font-size: 22px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
+        
+        .btn_border:hover, .btn_border.reverse {
+          background: #D70222;
+          color: #fff;
+        }
+
+        .btn_border, .btn_border.reverse:hover {
+          background: #fff;
+          color: #D70222;
+        }
+
+        .btn_border:hover path {
+          fill: #fff
+        }
+        .btn_border.reverse:hover path {
+          fill: #D70222
+        }
+
+      .customlink {
+        display: flex;
+        align-items: center;
+        text-decoration: none !important
+      }
+
+      .detailinfo__request {
+        margin: 60px 0;
+      }
+
+      .customlink__text {
+        margin-left: 13px;
+        color: #ED1E26;
+        display: inline-block;
+        border-bottom: 1px solid rgba(237, 30, 38, 1);
+font-family: 'RoadRadio';
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+      }
+      .customlink:hover .customlink__text {
+        text-decoration: none;
+      }
+
+      .infoicons {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        margin: 27px 0; }
+        .infoicons .badge {
+          padding: 0; }
+          .infoicons .badge img {
+            min-width: 24px; }
+      
+      .infoicons__item {
+        margin-right: 30px; }
+ 
+        .productpage__right {
+          width: 670px;
+        }
+
+
+  .infoicons__item {
+    display: flex;
+    align-items: center;
+  }
+
+  .infoicons__text {
+    margin-left: 13px;
+
+    color: #000;
+
+font-family: 'RoadRadio';
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+  }
+  .detailinfo__infoicons {
+    margin: 40px 0;
+  }
+
+
+.description h3 {
+  
+  color: #ED1E26;
+
+  font-family: 'RoadRadio';
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0 0 22px 0; }
+
+.description p {
+  color: #000;
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140% }
+
+.description__cols {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 -23px; }
+
+.description__col {
+  padding: 0 23px;
+  width: 50%; }
+
+
+  .blockheader {
+    margin-bottom: 29px;
+  display: flex;
+align-items: center;
+justify-content: space-between; }
+
+.sliderarrows {
+  display: flex;
+  align-items: center;
+}
+    
+    .blockheader h2 {
+      margin-bottom: 0;
+      margin-top: 0; }
+  
+  .blockheader__left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  
+  .sliderarrows__left {
+    cursor: pointer; }
+  
+  .sliderarrows__right {
+    margin-left: 15px;
+    cursor: pointer; }
+
+.productpage__footer {
+  margin-top: 80px;
+}
+
+.container .container {
+  padding: 0;
+}
+
+.productslider {
+  margin-bottom: 60px;
+}
+.productcard {
+  max-width: 298px;
+}
+.slick-slide img {
+  width: unset;
+}
+
+.blockheader__left h2 {
+  color: #000;
+
+  text-align: center;
+  font-family: 'Montserrat';
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.pageheader__link a {
+  color: #ED1E26;
+
+font-family: 'RoadRadio';
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+
+.recipeslider__type2_slider .recipe a {
+  display: block;
+  position: relative;
+  margin: 0 3px 0 4px;
+  box-sizing: border-box;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-box-shadow: inset 0px -50px 66px -30px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset 0px -50px 66px -30px rgba(0,0,0,0.75);
+  box-shadow: inset 0px -50px 66px -30px rgba(0,0,0,0.75);
+  overflow: hidden;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.recipeslider__type2_slider .recipe .recipe-body {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  top: -180px;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.recipeslider__type2_slider  .recipe .video {
+  position: absolute;
+  top: 0;
+  right: 15px;
+  width: 58px;
+  height: 42px;
+  padding: 0px 0px 0px 0px;
+  background: #64bae9;
+  text-align: center;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  color: #fff;
+  text-transform: none;
+}
+.recipeslider__type2_slider .recipe .video:before {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 0;
+  height: 0;
+  border-width: 13px 29px 0 29px;
+  border-color: #64bae9 transparent transparent transparent;
+  border-style: solid;
+  content: '';
+}
+
+.recipeslider__type2_slider .recipe .video i {
+  width: 25px;
+  height: 25px;
+  background: url(../img/video_i_icon.png)no-repeat center center;
+  position: absolute;
+  left: 50%;
+  top: 73%;
+  transform: translate(-50% , -50%);
+}
+
+.recipeslider__type2_slider .recipe .recipe-body{
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  top: -180px;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+.recipeslider__type2_slider img{
+  vertical-align: top;
+}
+.recipeslider__type2_slider .recipe a:hover .recipe-body{
+  opacity: 1;
+  visibility: visible;
+  top: 0;
+}
+.recipeslider__type2_slider .recipe a:hover .name {
+  bottom: -60px;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.recipeslider__type2 {
+  position: relative;
+}
+
+.slider-arrow_red div, .recipeslider__type2 .slider-arrow div {
+  background: rgba(215, 2, 34, 1);
+}
+.productpage__main  {
+  align-items: center;
+}
+
 @media (max-width: 1480px) {
   .catalogpage__wrapper {
 

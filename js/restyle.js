@@ -1,4 +1,103 @@
+function detailsliderInit() {
+  const swiper = new Swiper(".detailswiperpreview", {
+      spaceBetween: 9,
+      scrollbar: {
+          el: '.swiper-scrollbar',
+          draggable: true,
+      },
+      slidesPerView: "auto",
+      mousewheel: true,
+      direction: 'vertical',
+      freeMode: true,
+      watchSlidesProgress: true,
+
+  });
+  const swiper2 = new Swiper(".detailswiper", {
+
+      navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+      },
+      thumbs: {
+          swiper: swiper,
+      },
+      pagination: {
+          el: ".detailslider-pagination",
+          clickable: true
+      },
+
+  });
+
+}
+
+function productSliderInit() {
+  $('.productslider__slider').each(function() {
+      
+      $(this).slick({
+          dots: false,
+          arrows: true,
+          infinite: true,
+          slidesToShow: 5,
+          slidesToScroll: 1,
+         /*  autoplay: true,
+          autoplaySpeed: 3000, */
+          swipe: false,
+          nextArrow: $(this).closest('.productslider').find('.sliderarrows__right'),
+          prevArrow: $(this).closest('.productslider').find('.sliderarrows__left'),
+          responsive: [
+              {
+                  breakpoint: 1280,
+                  slidesToShow: 3,     
+                  slidesToScroll: 1,       
+              },
+              {
+                  breakpoint: 767,
+                  slidesToShow: 2,     
+                  slidesToScroll: 1,             
+              },
+
+          ]
+      })
+  })
+}
+function recipeSliderInit() {
+  $('.recipeslider__type2_slider').each(function() {
+      
+      $(this).slick({
+          dots: false,
+          arrows: true,
+          infinite: true,
+          slidesToShow: 3,
+          slidesToScroll: 1,
+         /*  autoplay: true,
+          autoplaySpeed: 3000, */
+          swipe: false,
+          nextArrow: $(this).closest('.recipeslider__type2').find('.slider-next'),
+          prevArrow: $(this).closest('.recipeslider__type2').find('.slider-prev'),
+          responsive: [
+              {
+                  breakpoint: 1280,
+                  slidesToShow: 3,     
+                  slidesToScroll: 1,       
+              },
+              {
+                  breakpoint: 767,
+                  slidesToShow: 2,     
+                  slidesToScroll: 1,             
+              },
+
+          ]
+      })
+  })
+}
+
 $(document).ready(function () {
+  detailsliderInit();
+  productSliderInit();
+  recipeSliderInit();
+
+  $(".zoom-box").each((function(){$(this).zoom()}))
+
   $(".newsindex__slider").slick({
     slidesToShow: 3,
     slidesToScroll: 1,
