@@ -45,15 +45,21 @@ function productSliderInit() {
           nextArrow: $(this).closest('.productslider').find('.sliderarrows__right'),
           prevArrow: $(this).closest('.productslider').find('.sliderarrows__left'),
           responsive: [
-              {
-                  breakpoint: 1280,
-                  slidesToShow: 3,     
-                  slidesToScroll: 1,       
+                {
+                  breakpoint: 1480,
+                  settings: {
+                    slidesToShow: 3,     
+                    slidesToScroll: 1,     
+                  }
+                
               },
               {
                   breakpoint: 767,
-                  slidesToShow: 2,     
-                  slidesToScroll: 1,             
+                  settings: {
+                    slidesToShow: 2,     
+                    slidesToScroll: 1,     
+                  }
+                
               },
 
           ]
@@ -75,18 +81,17 @@ function recipeSliderInit() {
           nextArrow: $(this).closest('.recipeslider__type2').find('.slider-next'),
           prevArrow: $(this).closest('.recipeslider__type2').find('.slider-prev'),
           responsive: [
-              {
-                  breakpoint: 1280,
-                  slidesToShow: 3,     
-                  slidesToScroll: 1,       
-              },
-              {
-                  breakpoint: 767,
-                  slidesToShow: 2,     
-                  slidesToScroll: 1,             
-              },
+            {
+              breakpoint: 1480,
+              settings: {
+                slidesToShow: 2,     
+                slidesToScroll: 1,     
+              }
+            
+          },
+         
 
-          ]
+      ]
       })
   })
 }
