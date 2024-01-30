@@ -1421,7 +1421,6 @@ text-decoration: none;
 
 .pagination ul li a {
   font-family: 'RoadRadio';
-  padding: 0 4px;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -1431,7 +1430,7 @@ text-decoration: none;
   color: #25344f;
   text-align: center;
   display: block;
-  padding: 0 4px;
+  padding: 0 8px;
   height: 36px;
   border: 1px solid rgba(37, 52, 79, 0.15);  border-radius: 555px;
 text-decoration: none;
@@ -1894,6 +1893,13 @@ line-height: normal;
     opacity: 0.4;
   }
   
+  .dropdownselect_type3 {
+
+  }
+
+  .catalogfilter {
+    display: none;
+  }
 
 @media (max-width: 1480px) {
   .catalogpage__wrapper {
@@ -1935,6 +1941,90 @@ line-height: normal;
   }
 }
 @media (max-width: 1023px) {
+  .showmorelink {
+    padding: 17px 0;
+  }
+  .showmorelink img {
+   width: 22px;
+  }
+  .showmorelink span {
+    font-size: 14px;
+    padding-left: 8px;
+  }
+  .catalognav__showmore {
+    margin-bottom: 21px;
+  }
+  .paginationblock {
+    padding: 0;
+    margin: 21px 0 15px 0;
+  }
+
+  .showcountblock {
+    width: unset;
+    margin: auto;
+    padding-bottom: 5px;
+  }
+
+
+  .catalogpage__main {
+    padding-left: 0;
+  }
+  .cataloglist__items {
+    margin: 0 -10px;
+    width: calc(100% + 20px);
+  }
+  .productsticker__text {
+   font-size: 12px;
+   padding-bottom: 3px;
+  }
+
+  .productsticker_new {
+    width: 69px;
+  }
+  .productsticker_hit {
+    width: 38px;
+  }
+  .productcard {
+    padding: 10px;
+  }
+  .productcard__images {
+    padding: 0 18px;
+    margin: 18px 0 18px 0;
+  }
+  .productcard__title a {
+    font-size: 12px;
+  }
+  .productcard__title {
+    margin-bottom: 12px;
+  }
+  a.productlink {
+    height: 24px;
+    padding: 6px 11px;
+    font-size: 12px;
+  }
+  .dropdownselect_type3 {
+    border-radius: 8px;
+background: #F6F6F6;
+padding: 14px 18px;
+width: 100%;
+position: relative;
+  } 
+  .catalogfilter {
+    width: 100%;
+    margin-bottom: 22px;
+  }
+  .dropdownselect_type3 .dropdown-menu-wrapper {
+    left: 0;
+  }
+  .dropdownselect_type3 .dropdown-select {
+   position: static;
+  }
+  .catalogaside {
+    display: none;
+  }
+  .catalogfilter {
+    display: block;
+  }
   .catalogaside__back {
     display: none;
   }
