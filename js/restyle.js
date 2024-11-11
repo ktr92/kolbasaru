@@ -97,9 +97,25 @@ function recipeSliderInit() {
 }
 
 $(document).ready(function () {
-  detailsliderInit();
-  productSliderInit();
-  recipeSliderInit();
+ // detailsliderInit();
+  //productSliderInit();
+  //recipeSliderInit();
+
+
+  $('.header_v2 .main-nav > ul > li > a').on('click', function(e){{
+    e.preventDefault();
+    $(this).closest('li').find('.submenu').addClass('active')
+  }})
+
+  $('.submenu__close').on('click', function(e) {
+    e.preventDefault();
+    $(this).closest('li').find('.submenu').removeClass('active')
+    $(this).closest('.header_v2 ').removeClass('open')
+  })
+  $('.submenu__back').on('click', function(e) {
+    e.preventDefault();
+    $(this).closest('li').find('.submenu').removeClass('active')
+  })
 
   $(".zoom-box").each((function(){$(this).zoom()}))
 

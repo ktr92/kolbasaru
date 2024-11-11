@@ -1,0 +1,111 @@
+* {
+  font-family: "Formular";
+}
+
+.pdfpage {
+  width: 1120px;
+  margin: auto;
+  padding-left: 80px;
+  padding-right: 80px;
+  box-sizing: border-box;
+
+  height: 1584px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.pdfheader__items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pdfheader {
+  padding: 30px 0;
+}
+
+.pdfmain {
+  margin-top: 60px;
+}
+
+.pdftitle {
+  color: #000;
+  margin-bottom: 70px;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.pdfparams {
+  margin: 0 -27px 40px -27px;
+}
+.pdfparams table {
+  width: 100%;
+  color: #000;
+
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.pdfparams table td {
+  width: 50%;
+}
+.pdfparams table > tbody > tr > td {
+  padding: 0 27px;
+}
+.pdfparams table > tbody > tr > td > table > tbody > tr > td {
+  padding: 0 0 10px 0;
+}
+.pdfparams table > tbody > tr > td > table > tbody > tr > td:last-child {
+  font-style: italic;
+  text-align: right;
+  font-weight: 600;
+}
+.pdftable table {
+  width: 100%;
+  border-spacing: 0;
+}
+.pdftable tbody * {
+  font-family: "FormularMono";
+}
+.pdftable table th {
+  text-align: right;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 10px 0;
+  border-top: 1px solid #000;
+
+  border-bottom: 1px solid #000;
+}
+.pdftable table th:first-child {
+  text-align: left;
+}
+
+.pdftable table td {
+  padding: 4px 1px;
+  text-align: right;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.pdftable table td:first-child {
+  text-align: left;
+}
+
+.pdftable table tbody tr:nth-child(2n-1) {
+  background: rgba(196, 196, 196, 0.2);
+}
+
+.pdffooter {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 23px 0;
+}

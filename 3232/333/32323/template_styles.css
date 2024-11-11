@@ -1,0 +1,194 @@
+/*.logo img{width:150px; height:104px}*/
+.result_order .feedback_form .load-list{
+  display: none;
+}
+.result_order .feedback_form.load .load-list{
+  display: block;
+  position: absolute;
+  top: 0;
+}
+
+.result_order .feedback_form.load .form_block{
+  opacity: 0.3;
+}
+
+
+.order_form .load-list{
+  display: none;
+}
+.order_form.load .load-list{
+  display: block;
+  position: absolute;
+  top: 0;
+}
+
+.order_form.load .form_block{
+  opacity: 0.3;
+}
+
+
+.find_block .other_magazin.all {
+    background: none !important;
+    border: 1px solid #b7dff3 !important;
+}
+.find_block .other_magazin.active, .find_block .other_magazin.all.active {
+    background: #46a4d7 !important;
+    border: 1px solid #46a4d7 !important;
+}
+
+
+.preloader{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    background: url('/_i/preloader.png') no-repeat center center;
+    background-size: contain;
+    animation-name: rotateAnim;
+    -o-animation-name: rotateAnim;
+    -ms-animation-name: rotateAnim;
+    -webkit-animation-name: rotateAnim;
+    -moz-animation-name: rotateAnim;
+    animation-duration: 1s;
+    -o-animation-duration: 1s;
+    -ms-animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+    -ms-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    -o-animation-timing-function: linear;
+    -ms-animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+}
+@keyframes rotateAnim {
+    from {
+        transform: rotate(360deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+@-o-keyframes rotateAnim {
+    from {
+        -o-transform: rotate(360deg);
+    }
+    to {
+        -o-transform: rotate(0deg);
+    }
+}
+
+@-ms-keyframes rotateAnim {
+    from {
+        -ms-transform: rotate(360deg);
+    }
+    to {
+        -ms-transform: rotate(0deg);
+    }
+}
+
+@-webkit-keyframes rotateAnim {
+    from {
+        -webkit-transform: rotate(360deg);
+    }
+    to {
+        -webkit-transform: rotate(0deg);
+    }
+}
+
+@-moz-keyframes rotateAnim {
+    from {
+        -moz-transform: rotate(360deg);
+    }
+    to {
+        -moz-transform: rotate(0deg);
+    }
+}
+
+
+.processes-nav .nav-item a.active{
+    text-decoration: none;
+}
+.processes-nav .nav-item a.active span{
+    color: #9dddf9;
+}
+.processes-nav .nav-item a.active::before{
+    background: #b2b2b2;
+}
+
+.process-body{
+  display: none;
+}
+.process-body.active{
+  display: block;
+}
+
+
+form div.error-list {
+    padding: 0 5px 15px 15px;
+    color: red;
+}
+
+.form-wrap.load form{
+  opacity: 0;
+}
+.form-wrap .load-block{
+  display: none;
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  margin-top: -35px;
+  margin-left: -35px;
+}
+.form-wrap.load .load-block{
+  display: block;
+}
+
+div.load-list {
+    width: 100%;
+    height: 460px;
+    position: relative;
+}
+div.load-list .position-block{
+    left: 50%;
+  top: 50%;
+  position: absolute;
+  margin-top: -35px;
+  margin-left: -35px;
+}
+
+.icon.icon-descr-03-02 {
+    width: 94px;
+    height: 60px;
+    background-position: 0 -465px;
+}
+
+.icon.icon-descr-03-03 {
+    width: 94px;
+    height: 60px;
+    background-position: -234px -465px;
+}
+
+
+.all_popup .info-wrap p {
+    max-width: 300px;
+}
+
+
+.js_hide_msk{
+  display: none;
+}
+
+.contacts_page .open_map_click{display: none;}
+@media (max-width: 1024px){
+.contacts_page .open_map_click{display: inline;}
+}
+
+
+.selectize-input div.item{
+    display: inline !important;
+}
