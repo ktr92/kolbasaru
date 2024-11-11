@@ -137,7 +137,8 @@ a.btnloyal img {
   display: none;
 }
 
-.header_v2 .write-us {
+.header_v2 .main-nav{
+  width: 100%;
 }
 
 .submenu__header {
